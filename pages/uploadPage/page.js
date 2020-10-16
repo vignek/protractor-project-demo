@@ -25,14 +25,16 @@ class uploadPage extends BasePage {
           browser.sleep(3000); 
         };
 
+        // Trying to add files by passing the location to input[type='file'] in dom
         this.addFiles = async () => {
             logger.info('Action - Adding new files');
-            console.log('Inside Add File');
 
+            // ISSUE / FAILS -> First step trying to run a console command to remove hidden attribute from the input tag to reveal upload button
             browser.driver.executeScript(function(InputType) {
                 InputType.setAttribute('hidden', '');
             });
 
+            // Untested
             absolutePath = path.resolve(__dirname, USERDATA.documentPath);
             const fileElem = element(by.css('input[type="file"]'));
             fileElem.sendKeys(absolutePath);

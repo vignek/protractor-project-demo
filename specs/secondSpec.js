@@ -71,7 +71,7 @@ describe ('verify that uploading a document with fact types and verify the thoug
 
     it('should be displayed with PDF view of the document', async () => {
         await UploadPage.get();
-        await UploadPage.addFiles();
+        await UploadPage.addFiles();  // ISSUE -> Not working
         expect(TagPage.searchTagType()).toBeGreaterThan(1);
     });
 
@@ -84,6 +84,15 @@ describe ('verify that uploading a document with fact types and verify the thoug
         await DocumentPage.navigateToDocumentMenu();
         expect(TagPage.searchTagType()).toBeGreaterThan(1);
     });
+
+
+    /* 
+    28. Click on "Documents" menu item on top bar
+    29. Click on "Refresh" button to view the document uploaded above
+    30. Click on the expand arrow icon beside the uploaded document to view the document
+    31. Validate the document type and tag of the document
+    32. Validate the fact types and their values by entering fact type names in Search input and clicking on them
+    */
 
 });
 
