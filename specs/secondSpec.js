@@ -58,7 +58,7 @@ describe ('verify that uploading a document with fact types and verify the thoug
 
     it('should be able to create and view a new document type', async () => {
         await DocumentPage.navigateToDocumentMenu();
-        await DocumentPage.loadDocumentModal();
+        await DocumentPage.loadDocumentModal(); 
         await DocumentPage.createNewDocType();
         expect(DocumentPage.searchDocType()).toBeGreaterThan(1);
     });
@@ -69,20 +69,20 @@ describe ('verify that uploading a document with fact types and verify the thoug
         expect(TagPage.searchTagType()).toBeGreaterThan(1);
     });
 
-    it('should be able to create and view a new tag type', async () => {
-        await TagPage.navigateToTagMenu();
-        await TagPage.createNewTag();
-        expect(TagPage.searchTagType()).toBeGreaterThan(1);
-    });
     it('should be displayed with PDF view of the document', async () => {
         await UploadPage.get();
         await UploadPage.addFiles();
         expect(TagPage.searchTagType()).toBeGreaterThan(1);
     });
 
-    it('should view the same document type and tag supplied during upload', async () => {
-        await UploadPage.get();
+    it('should validate the document type and tag of the document', async () => {
+        await DocumentPage.navigateToDocumentMenu();
         expect(TagPage.searchTagType()).toExist();
+    });
+
+    it('should validate the fact type and tag of the document', async () => {
+        await DocumentPage.navigateToDocumentMenu();
+        expect(TagPage.searchTagType()).toBeGreaterThan(1);
     });
 
 });

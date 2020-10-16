@@ -4,27 +4,28 @@ import BasePage from '../basePage/page';
 import SELECTORS from './selectors';
 import log4js from '../../utils/log'; 
 
+browser.ignoreSynchronization = true;
 var EC = protractor.ExpectedConditions;
 const logger = log4js.getLogger("results");
 
-const ListItems = element(by.css(SELECTORS.ListItems));
-const DocumentMenuItem = element(by.css(SELECTORS.DocumentMenuItem));
-const SettingsIcon = element(by.css(SELECTORS.SettingsIcon));
-const AddDocumentButton = element(by.css(SELECTORS.AddDocumentButton));
+const ListItems = element(by.css(SELECTORS.listItems));
+const DocumentMenuItem = element(by.css(SELECTORS.documentMenuItem));
+const SettingsIcon = element(by.css(SELECTORS.settingsIcon));
+const AddDocumentButton = element(by.css(SELECTORS.addDocumentButton));
 const DocumentModal = element(by.xpath(SELECTORS.DocumentModal));
-const DocumentName = element(by.css(SELECTORS.DocumentName));
-const DocumentDescription = element(by.css(SELECTORS.DocumentDescription));
+const DocumentName = element(by.css(SELECTORS.documentName));
+const DocumentDescription = element(by.css(SELECTORS.documentDescription));
 const SaveButton = element(by.css(SELECTORS.SaveButton));
-const ThoughtExtraction = element(by.css(SELECTORS.ThoughtExtraction));
-const DocumentSearch = element(by.css(SELECTORS.DocumentSearch));
+const ThoughtExtraction = element(by.css(SELECTORS.thoughtExtraction));
+const DocumentSearch = element(by.css(SELECTORS.documentSearch));
 const SearchResultElement = element.all(by.css(SELECTORS.SearchResultElement));
-const OGLThoughtExtraction = element(by.cssContainingText(ThoughtExtraction, 'OGL'));
+const OGLThoughtExtraction = element.all(by.css(SELECTORS.oglthoughtExtraction));
 
 class DocumentPage extends BasePage {
     constructor() {
         super();
         this.url = USERDATA.documentUrl;
-        this.pageLoaded = this.isVisible($(SELECTORS.DocumentIcon));
+        this.pageLoaded = this.isVisible($(SELECTORS.documentIcon));
 
         this.waitForListItems = async () => {
             return this.inDom(ListItems);

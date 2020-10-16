@@ -7,13 +7,13 @@ import log4js from '../../utils/log';
 var EC = protractor.ExpectedConditions;
 const logger = log4js.getLogger("results");
 
-const SettingsIcon = element(by.css(SELECTORS.SettingsIcon));
-const AddTagButton = element(by.css(SELECTORS.AddTagButton));
-const TagMenuItem = element(by.css(SELECTORS.TagMenuItem));
-const AddTagItem = element(by.css(SELECTORS.AddTagItem));
-const AddButton = element(by.css(SELECTORS.AddButton));
-const TagSearch = element(by.css(SELECTORS.TagSearch));
-const TagCreationAlert = element(by.css(SELECTORS.TagCreationAlert));
+const SettingsIcon = element(by.css(SELECTORS.settingsIcon));
+const AddTagButton = element(by.css(SELECTORS.addTagButton));
+const TagMenuItem = element(by.css(SELECTORS.tagMenuItem));
+const AddTagItem = element(by.css(SELECTORS.addTagItem));
+const AddButton = element(by.css(SELECTORS.addButton));
+const TagSearch = element(by.css(SELECTORS.tagSearch));
+const TagCreationAlert = element(by.css(SELECTORS.tagCreationAlert));
 const SearchResultElement = element.all(by.css(SELECTORS.SearchResultElement));
 
 class tagPage extends BasePage {
@@ -21,7 +21,7 @@ class tagPage extends BasePage {
     constructor() {
         super();
         this.url = USERDATA.tagUrl;
-        this.pageLoaded = this.isVisible($(SELECTORS.TagSearch));
+        this.pageLoaded = this.isVisible($(SELECTORS.tagSearch));
         this.settingsMenu = TagMenuItem;
         
         this.get = async () => {

@@ -1,12 +1,13 @@
 export default {
 
-    addDocumentButton : 'div[class*="content-area"] button[class*="btn btn-primary"]  clr-icon[shape="plus-circle"]',
+    addDocumentButton : 'div[class*="content-area"] div[class*=flex-horizontal] button[class*="btn btn-primary"]',
     documentName : 'form[class*="clr-form"] input[name*="docType-name"]',
     documentDescription : 'form[class*="clr-form"]  textarea[name="docType-description"]',
     documentLinkedClassifications : 'form[class*="clr-form"]  input[name="default-classification-search-text"]',
     documentClassificationName : 'div[class="classifications-list"]  span[class*="classification-name"]',
     selectedClassification : 'div[class="classification selected-classification"]',
-    thoughtExtraction: 'div[class="clr-control-container"] select[name*="docType-Ontology"] option[class="ng-star-inserted"]',
+    thoughtExtraction : 'div[class="clr-control-container"] select[name*="docType-Ontology"] option[class="ng-star-inserted"]',
+    oglthoughtExtraction : 'div[class="clr-control-container"] select[name*="docType-Ontology"] option[class="ng-star-inserted"]:nth-of-type(6)',
     documentIcon : "header div .nav-icon clr-icon[shape='tt-logo']",
     listItems : "div[class='clr-control-container'] select[name*='docType-Ontology']",
     documentMenuItem: 'clr-dropdown-menu a[href="/qa/admin/document-types"]',

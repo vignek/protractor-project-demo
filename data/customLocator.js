@@ -6,7 +6,6 @@ export default {
 	
         by.addLocator('ngClick', function(toState,parentelement) {
         
-            
             var using = parentelement || document ;
             var prefixes = ['ng-click'];
             browser.sleep(3000);

@@ -8,7 +8,7 @@ const logger = log4js.getLogger("results");
 
 const NavigateIcon = element(by.css(SELECTORS.addFactButton));
 const FactTypeMenuItem = element(by.css(SELECTORS.FactTypesMenuItem));
-const SettingsIcon = element(by.css(SELECTORS.SettingsIcon));
+const SettingsIcon = element(by.css(SELECTORS.settingsIcon));
 const FactModal = element(by.css(SELECTORS.FactModal));
 const FactName = element(by.css(SELECTORS.FactName));
 const FactDescription = element(by.css(SELECTORS.FactDescription));
