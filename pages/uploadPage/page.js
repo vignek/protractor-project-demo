@@ -30,6 +30,16 @@ class uploadPage extends BasePage {
             logger.info('Action - Adding new files');
 
             // ISSUE / FAILS -> First step trying to run a console command to remove hidden attribute from the input tag to reveal upload button
+
+/*
+References : 
+https://stackoverflow.com/questions/21305298/how-to-upload-file-in-angularjs-e2e-protractor-testing/21314337#21314337
+https://stackoverflow.com/questions/21685415/upload-file-to-hidden-input-using-protractor-and-selenium
+https://stackoverflow.com/questions/55021886/protractor-testcase-failing-to-upload-a-file
+https://automation-seleniumtutorial.blogspot.com/2019/01/how-to-handle-hidden-elements-in-selenium-webdriver.html
+
+*/
+
             browser.driver.executeScript(function(InputType) {
                 InputType.setAttribute('hidden', '');
             });
