@@ -5,6 +5,8 @@ import UploadPage from '../pages/uploadPage/page';
 import FactPage from '../pages/factPage/page';
 import USERDATA from '../data/common';
 
+const documentPath = './OGL.pdf'
+
 describe ('verify that uploading a document with fact types and verify the thoughts/facts/tags', () => {
     beforeAll(async () => {
         await LoginPage.get();
@@ -71,19 +73,19 @@ describe ('verify that uploading a document with fact types and verify the thoug
 
     it('should be displayed with PDF view of the document', async () => {
         await UploadPage.get();
-        await UploadPage.addFiles();  // ISSUE -> Not working
-        expect(TagPage.searchTagType()).toBeGreaterThan(1);
+        await UploadPage.addFiles(documentPath);
+        await expect(TagPage.searchTagType()).toBeGreaterThan(1);
     });
 
-    it('should validate the document type and tag of the document', async () => {
-        await DocumentPage.navigateToDocumentMenu();
-        expect(TagPage.searchTagType()).toExist();
-    });
+    // it('should validate the document type and tag of the document', async () => {
+    //     await DocumentPage.navigateToDocumentMenu();
+    //     expect(TagPage.searchTagType()).toExist();
+    // });
 
-    it('should validate the fact type and tag of the document', async () => {
-        await DocumentPage.navigateToDocumentMenu();
-        expect(TagPage.searchTagType()).toBeGreaterThan(1);
-    });
+    // it('should validate the fact type and tag of the document', async () => {
+    //     await DocumentPage.navigateToDocumentMenu();
+    //     expect(TagPage.searchTagType()).toBeGreaterThan(1);
+    // });
 
 
     /* 
