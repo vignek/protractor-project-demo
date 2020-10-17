@@ -2,7 +2,6 @@ import BasePage from '../basePage/page';
 import SELECTORS from './selectors';
 import USERDATA from '../../data/common'
 import log4js from '../../utils/log'; 
-import { $ } from 'protractor';
 
 var path = require('path');
 
@@ -29,24 +28,28 @@ class uploadPage extends BasePage {
         this.addFiles = async () => {
             logger.info('Action - Adding new files');
 
-            // ISSUE / FAILS -> First step trying to run a console command to remove hidden attribute from the input tag to reveal upload button
+            const documentPath = './OGL.pdf'
+            const absolutePath = path.resolve(documentPath);
 
-/*
-References : 
-https://stackoverflow.com/questions/21305298/how-to-upload-file-in-angularjs-e2e-protractor-testing/21314337#21314337
-https://stackoverflow.com/questions/21685415/upload-file-to-hidden-input-using-protractor-and-selenium
-https://stackoverflow.com/questions/55021886/protractor-testcase-failing-to-upload-a-file
-https://automation-seleniumtutorial.blogspot.com/2019/01/how-to-handle-hidden-elements-in-selenium-webdriver.html
+            // const fileElem = element(by.css('input[type="file"]'));
+            const fileElem = element(by.xpath('//ttc-upload-selection-panel[1]/input[1]'));
 
-*/
+            browser.driver.executeAsyncScript(
+                "arguments[0].style.visibility = 'visible';arguments[0].style.height = '1px'; arguments[0].style.width = '1px';  arguments[0].style.opacity = 1",
+                fileElem.getWebElement()
+              );
+            
+            console.log('Before Async Function')
+            // browser.executeAsyncScript(function(callback) {
+            //     console.log('Inside Async Function -----')
+            //     const element = document.querySelector('input[type="file"]');
+            //     element.style.visibility = 'visible';
+            //     callback();
+            // });
+            console.log('After Async ----')
 
-            browser.driver.executeScript(function(InputType) {
-                InputType.setAttribute('hidden', '');
-            });
+            // const fileElem = element(by.css('input[type="file"]'));
 
-            // Untested
-            absolutePath = path.resolve(__dirname, USERDATA.documentPath);
-            const fileElem = element(by.css('input[type="file"]'));
             fileElem.sendKeys(absolutePath);
             UploadButton.click();
             logger.info('Success  - Added new Files');

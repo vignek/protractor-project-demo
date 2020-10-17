@@ -2,7 +2,7 @@
 export default {
 
     testUser : {'username': 'code@testing.example', 'password': '4C&XP9KB@y^EAo'},
-    baseUrl : ' ',
+    baseUrl : 'https://app.thoughttrace.dev/qa/',
     documentUrl : 'https://app.thoughttrace.dev/qa/documents',
     factUrl : 'https://app.thoughttrace.dev/qa/admin/fact-types',
     tagUrl : 'https://app.thoughttrace.dev/qa/admin/tags',

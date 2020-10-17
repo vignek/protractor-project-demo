@@ -1,0 +1,74 @@
+[2020-10-16T19:45:15.781] [INFO] results - Action - Logging in Started
+[2020-10-16T19:45:37.361] [INFO] results - Action - navigate To Document Menu
+[2020-10-16T19:45:37.375] [INFO] results - Action - navigate To Document Menu
+[2020-10-16T19:45:49.854] [INFO] results - Action - Logging in Started
+[2020-10-16T19:45:50.880] [INFO] results - Success - Logging in completed
+[2020-10-16T19:45:55.808] [INFO] results - Action - Adding new files
+[2020-10-16T19:45:59.307] [INFO] results - Action - navigate To Document Menu
+[2020-10-16T19:46:00.092] [INFO] results - Success - Navigating to Document Menu
+[2020-10-16T19:46:00.093] [INFO] results - Action - Search Tag Type
+[2020-10-16T19:49:39.899] [INFO] results - Action - Logging in Started
+[2020-10-16T19:49:41.185] [INFO] results - Success - Logging in completed
+[2020-10-16T19:49:47.213] [INFO] results - Action - Adding new files
+[2020-10-16T19:49:50.653] [INFO] results - Action - navigate To Document Menu
+[2020-10-16T19:49:51.003] [INFO] results - Success - Navigating to Document Menu
+[2020-10-16T19:49:51.004] [INFO] results - Action - Search Tag Type
+[2020-10-16T19:51:31.778] [INFO] results - Action - navigate To Document Menu
+[2020-10-16T19:51:32.157] [INFO] results - Success - Navigating to Document Menu
+[2020-10-16T19:51:32.158] [INFO] results - Action - Search Tag Type
+[2020-10-16T19:51:39.172] [INFO] results - Action - Logging in Started
+[2020-10-16T19:51:39.274] [INFO] results - Action - navigate To Document Menu
+[2020-10-16T19:51:39.296] [INFO] results - Action - navigate To Document Menu
+[2020-10-16T19:58:16.432] [INFO] results - Action - Logging in Started
+[2020-10-16T19:58:17.715] [INFO] results - Success - Logging in completed
+[2020-10-16T19:58:23.456] [INFO] results - Action - Adding new files
+[2020-10-16T19:58:27.077] [INFO] results - Action - navigate To Document Menu
+[2020-10-16T19:58:27.463] [INFO] results - Success - Navigating to Document Menu
+[2020-10-16T19:58:27.463] [INFO] results - Action - Search Tag Type
+[2020-10-16T20:00:07.833] [INFO] results - Action - navigate To Document Menu
+[2020-10-16T20:00:08.342] [INFO] results - Success - Navigating to Document Menu
+[2020-10-16T20:00:08.347] [INFO] results - Action - Search Tag Type
+[2020-10-16T20:00:23.149] [INFO] results - Action - Logging in Started
+[2020-10-16T20:00:24.175] [INFO] results - Success - Logging in completed
+[2020-10-16T20:00:29.558] [INFO] results - Action - Adding new files
+[2020-10-16T20:00:29.560] [INFO] results - Success  - Added new Files
+[2020-10-16T20:00:29.560] [INFO] results - Action - Search Tag Type
+[2020-10-16T20:00:30.154] [INFO] results - Action - navigate To Document Menu
+[2020-10-16T20:00:31.415] [INFO] results - Success - Navigating to Document Menu
+[2020-10-16T20:00:31.415] [INFO] results - Action - Search Tag Type
+[2020-10-16T20:02:10.950] [INFO] results - Action - navigate To Document Menu
+[2020-10-16T20:02:11.213] [INFO] results - Success - Navigating to Document Menu
+[2020-10-16T20:02:11.214] [INFO] results - Action - Search Tag Type
+[2020-10-16T20:11:43.239] [INFO] results - Action - Logging in Started
+[2020-10-16T20:11:43.831] [INFO] results - Success - Logging in completed
+[2020-10-16T20:11:48.636] [INFO] results - Action - Adding new files
+[2020-10-16T20:11:48.636] [INFO] results - Success  - Added new Files
+[2020-10-16T20:11:48.636] [INFO] results - Action - Search Tag Type
+[2020-10-16T20:11:49.262] [INFO] results - Action - navigate To Document Menu
+[2020-10-16T20:11:51.771] [INFO] results - Success - Navigating to Document Menu
+[2020-10-16T20:11:51.771] [INFO] results - Action - Search Tag Type
+[2020-10-16T20:13:30.023] [INFO] results - Action - navigate To Document Menu
+[2020-10-16T20:13:30.539] [INFO] results - Success - Navigating to Document Menu
+[2020-10-16T20:13:30.539] [INFO] results - Action - Search Tag Type
+[2020-10-16T20:14:39.551] [INFO] results - Action - Logging in Started
+[2020-10-16T20:14:40.833] [INFO] results - Success - Logging in completed
+[2020-10-16T20:14:45.702] [INFO] results - Action - Adding new files
+[2020-10-16T20:14:45.703] [INFO] results - Success  - Added new Files
+[2020-10-16T20:14:45.703] [INFO] results - Action - Search Tag Type
+[2020-10-16T20:14:46.374] [INFO] results - Action - navigate To Document Menu
+[2020-10-16T20:14:47.736] [INFO] results - Success - Navigating to Document Menu
+[2020-10-16T20:14:47.736] [INFO] results - Action - Search Tag Type
+[2020-10-16T20:16:27.004] [INFO] results - Action - navigate To Document Menu
+[2020-10-16T20:16:27.247] [INFO] results - Success - Navigating to Document Menu
+[2020-10-16T20:16:27.247] [INFO] results - Action - Search Tag Type
+[2020-10-16T20:22:54.074] [INFO] results - Action - Logging in Started
+[2020-10-16T20:22:55.396] [INFO] results - Success - Logging in completed
+[2020-10-16T20:23:02.099] [INFO] results - Action - Adding new files
+[2020-10-16T20:23:02.099] [INFO] results - Success  - Added new Files
+[2020-10-16T20:23:02.100] [INFO] results - Action - Search Tag Type
+[2020-10-16T20:23:02.790] [INFO] results - Action - navigate To Document Menu
+[2020-10-16T20:23:04.149] [INFO] results - Success - Navigating to Document Menu
+[2020-10-16T20:23:04.149] [INFO] results - Action - Search Tag Type
+[2020-10-16T20:25:03.970] [INFO] results - Action - navigate To Document Menu
+[2020-10-16T20:25:04.158] [INFO] results - Success - Navigating to Document Menu
+[2020-10-16T20:25:04.158] [INFO] results - Action - Search Tag Type
