@@ -27,13 +27,7 @@ class uploadPage extends BasePage {
 
         this.addFiles = async (documentPath) => {
             browser.sleep(3000);
-            // browser.executeScript('$(\'input[type="file"]\').attr("hidden", "");');
-
-            console.log('WEB ELEMENT IS : ')
-            console.log(InputType.getWebElement())
-
             browser.driver.executeScript("arguments[0].setAttribute('hidden','');", InputType.getWebElement());
-
             console.log('Action - uploading file');
             const absoluteFilePath = path.resolve(documentPath);
             await fileSelectInput.sendKeys(absoluteFilePath);
