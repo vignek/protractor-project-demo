@@ -16,6 +16,8 @@ const TagSearch = element(by.css(SELECTORS.tagSearch));
 const TagCreationAlert = element(by.css(SELECTORS.tagCreationAlert));
 const SearchResultElement = element.all(by.css(SELECTORS.SearchResultElement));
 
+const userTagName = USERDATA.tagName.name;
+
 class tagPage extends BasePage {
 
     constructor() {
@@ -44,7 +46,7 @@ class tagPage extends BasePage {
             browser.wait(EC.elementToBeClickable(AddTagButton));
             await AddTagButton.click();
             await AddTagItem.click();
-            await AddTagItem.sendKeys(USERDATA.tagName.name);
+            await AddTagItem.sendKeys(userTagName);
             await AddButton.click();
             await this.isVisible(TagCreationAlert);
             logger.info('Success - Tag Created Successfully');
@@ -55,7 +57,7 @@ class tagPage extends BasePage {
           await browser.wait(EC.elementToBeClickable(TagSearch, 5000));
           await TagSearch.clear();
           await TagSearch.click();
-          await TagSearch.sendKeys(USERDATA.tagName.name);
+          await TagSearch.sendKeys(userTagName);
           await this.inDom(SearchResultElement);
           logger.info('Action - Tag Type Searched');
           return await SearchResultElement.count();

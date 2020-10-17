@@ -74,6 +74,7 @@ describe ('verify that uploading a document with fact types and verify the thoug
     it('should be displayed with PDF view of the document', async () => {
         await UploadPage.get();
         await UploadPage.addFiles(documentPath);
+        
         await expect(TagPage.searchTagType()).toBeGreaterThan(1);
     });
 

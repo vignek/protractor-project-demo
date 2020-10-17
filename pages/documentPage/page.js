@@ -20,6 +20,8 @@ const ThoughtExtraction = element(by.css(SELECTORS.thoughtExtraction));
 const DocumentSearch = element(by.css(SELECTORS.documentSearch));
 const SearchResultElement = element.all(by.css(SELECTORS.SearchResultElement));
 const OGLThoughtExtraction = element.all(by.css(SELECTORS.oglthoughtExtraction));
+const userDocumentName = USERDATA.docName.name;
+const userDocumentDescription = USERDATA.docName.description;
 
 class DocumentPage extends BasePage {
     constructor() {
@@ -57,11 +59,11 @@ class DocumentPage extends BasePage {
             logger.info("Action - creating New Document Type");
             await browser.wait(EC.elementToBeClickable(DocumentName, 5000));
             await DocumentName.click();
-            await DocumentName.sendKeys(USERDATA.docName.name);
+            await DocumentName.sendKeys(userDocumentName);
 
             await browser.wait(EC.elementToBeClickable(DocumentDescription, 5000));
             await DocumentDescription.click();
-            await DocumentDescription.sendKeys(USERDATA.docName.description);
+            await DocumentDescription.sendKeys(userDocumentDescription);
 
             await this.inDom(ListItems);
             await OGLThoughtExtraction.click();
@@ -75,7 +77,7 @@ class DocumentPage extends BasePage {
             await browser.wait(EC.elementToBeClickable(DocumentSearch, 5000));
             await DocumentSearch.clear();
             await DocumentSearch.click();
-            await DocumentSearch.sendKeys(USERDATA.docName.name);
+            await DocumentSearch.sendKeys(userDocumentName);
             await this.inDom(SearchResultElement);
             logger.info("Success - Creating new Search Doc Type");
             return await SearchResultElement.count();

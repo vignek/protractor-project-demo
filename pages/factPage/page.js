@@ -22,6 +22,9 @@ const SaveButton = element(by.css(SELECTORS.SaveButton));
 const FactsSearchBox = element(by.css(SELECTORS.FactsSearchBox));
 const SearchResultElement = element.all(by.css(SELECTORS.SearchResultElement));
 
+const userFactName = USERDATA.factType.name;
+const userFactDescription = USERDATA.factType.description;
+
 class FactPage extends BasePage {
     constructor() {
         super();
@@ -57,10 +60,10 @@ class FactPage extends BasePage {
           logger.info("Action - Creating New Fact Type");
           await browser.wait(EC.elementToBeClickable(FactName, 5000));
           await FactName.click();
-          await FactName.sendKeys(USERDATA.factType.name);
+          await FactName.sendKeys(userFactName);
           await browser.wait(EC.elementToBeClickable(FactDescription, 5000));
           await FactDescription.click();
-          await FactDescription.sendKeys(USERDATA.factType.description);
+          await FactDescription.sendKeys(userFactDescription);
 
           if( dataType === 'String') {
             await StringDataType.click();
@@ -89,7 +92,7 @@ class FactPage extends BasePage {
           await browser.wait(EC.elementToBeClickable(FactsSearchBox, 5000));
           await FactsSearchBox.clear();
           await FactsSearchBox.click();
-          await FactsSearchBox.sendKeys(USERDATA.factType.name);
+          await FactsSearchBox.sendKeys(userFactName);
           logger.info("Success - Success Searching Fact Type");
           return await SearchResultElement.count();
         };

@@ -28,12 +28,17 @@ class uploadPage extends BasePage {
         this.addFiles = async (documentPath) => {
             browser.sleep(3000);
             browser.driver.executeScript("arguments[0].setAttribute('hidden','');", InputType.getWebElement());
-            console.log('Action - uploading file');
+            logger.info('Action - uploading file');
             const absoluteFilePath = path.resolve(documentPath);
             await fileSelectInput.sendKeys(absoluteFilePath);
-            console.log('Success - uploading file');
+            logger.info('Success - uploading file');
             return this;
         };
+
+        /*
+            await this.inDom(ListItems);
+            await OGLThoughtExtraction.click();
+        */
 
     }
       
