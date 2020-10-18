@@ -881,3 +881,984 @@
 [2020-10-17T23:47:14.040] [INFO] results - Action - Adding Document Information
 [2020-10-17T23:47:14.040] [INFO] results - Success - uploading file
 [2020-10-17T23:47:17.359] [INFO] results - Success - Uploaded file operation completed Successfully
+[2020-10-18T00:42:58.144] [INFO] results - Action - Logging in Started
+[2020-10-18T00:42:59.262] [INFO] results - Success - Logging in completed
+[2020-10-18T00:43:05.107] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T00:43:05.379] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T00:43:11.456] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T00:43:11.733] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T00:43:11.911] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T00:43:12.771] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T00:43:12.772] [INFO] results - Action - Search Fact Type
+[2020-10-18T00:43:13.567] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T00:43:14.392] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T00:43:14.533] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T00:43:14.534] [INFO] results - Action - load Document Modal
+[2020-10-18T00:43:15.396] [INFO] results - Success - load Document Modal
+[2020-10-18T00:43:15.396] [INFO] results - Action - creating New Document Type
+[2020-10-18T00:43:16.340] [INFO] results - Success - Creating New Document Type
+[2020-10-18T00:43:16.340] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T00:43:17.059] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T00:43:17.733] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T00:43:17.879] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T00:43:17.879] [INFO] results - Action - Create new Tag
+[2020-10-18T00:43:18.497] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T00:43:18.498] [INFO] results - Action - Search Tag Type
+[2020-10-18T00:43:18.971] [INFO] results - Action - Tag Type Searched
+[2020-10-18T00:43:19.972] [INFO] results - Action - uploading file
+[2020-10-18T00:43:25.028] [INFO] results - Action - Adding Document Information
+[2020-10-18T00:43:25.028] [INFO] results - Success - uploading file
+[2020-10-18T00:43:28.277] [INFO] results - Success - Uploaded file operation completed Successfully
+[2020-10-18T00:44:30.278] [INFO] results - Action - Logging in Started
+[2020-10-18T00:44:31.353] [INFO] results - Success - Logging in completed
+[2020-10-18T00:44:36.567] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T00:44:36.818] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T00:44:39.427] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T00:44:39.667] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T00:44:39.809] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T00:44:40.606] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T00:44:40.606] [INFO] results - Action - Search Fact Type
+[2020-10-18T00:44:41.343] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T00:44:42.128] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T00:44:42.205] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T00:44:42.305] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T00:44:42.805] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T00:44:42.805] [INFO] results - Action - Search Fact Type
+[2020-10-18T00:44:43.049] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T00:44:43.664] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T00:44:43.751] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T00:44:43.828] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T00:44:44.326] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T00:44:44.326] [INFO] results - Action - Search Fact Type
+[2020-10-18T00:44:44.566] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T00:44:45.192] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T00:44:45.272] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T00:44:45.354] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T00:44:45.796] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T00:44:45.797] [INFO] results - Action - Search Fact Type
+[2020-10-18T00:44:46.057] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T00:44:46.736] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T00:44:46.817] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T00:44:46.958] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T00:44:47.522] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T00:44:47.522] [INFO] results - Action - Search Fact Type
+[2020-10-18T00:44:47.804] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T00:45:27.332] [INFO] results - Action - Logging in Started
+[2020-10-18T00:45:27.750] [INFO] results - Success - Logging in completed
+[2020-10-18T00:45:33.064] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T00:45:33.335] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T00:45:35.938] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T00:45:36.182] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T00:45:36.396] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T00:45:37.183] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T00:45:37.184] [INFO] results - Action - Search Fact Type
+[2020-10-18T00:45:37.937] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T00:45:38.591] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T00:45:38.672] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T00:45:38.753] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T00:45:39.263] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T00:45:39.263] [INFO] results - Action - Search Fact Type
+[2020-10-18T00:45:39.514] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T00:45:40.128] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T00:45:40.200] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T00:45:40.285] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T00:45:40.826] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T00:45:40.826] [INFO] results - Action - Search Fact Type
+[2020-10-18T00:45:41.165] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T00:45:41.777] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T00:45:41.858] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T00:45:41.944] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T00:45:42.505] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T00:45:42.505] [INFO] results - Action - Search Fact Type
+[2020-10-18T00:45:42.806] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T00:45:43.501] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T00:45:43.580] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T00:45:43.686] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T00:45:44.257] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T00:45:44.257] [INFO] results - Action - Search Fact Type
+[2020-10-18T00:45:44.532] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T00:45:53.044] [INFO] results - Action - Logging in Started
+[2020-10-18T00:45:54.212] [INFO] results - Success - Logging in completed
+[2020-10-18T00:45:58.616] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T00:45:58.896] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T00:46:01.494] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T00:46:01.757] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T00:46:01.973] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T00:46:02.842] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T00:46:02.843] [INFO] results - Action - Search Fact Type
+[2020-10-18T00:46:03.562] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T00:46:04.210] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T00:46:04.371] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T00:46:04.371] [INFO] results - Action - load Document Modal
+[2020-10-18T00:46:05.313] [INFO] results - Success - load Document Modal
+[2020-10-18T00:46:05.313] [INFO] results - Action - creating New Document Type
+[2020-10-18T00:46:06.380] [INFO] results - Success - Creating New Document Type
+[2020-10-18T00:46:06.383] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T00:46:07.255] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T00:46:08.029] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T00:46:08.200] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T00:46:08.200] [INFO] results - Action - Create new Tag
+[2020-10-18T00:46:08.915] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T00:46:08.915] [INFO] results - Action - Search Tag Type
+[2020-10-18T00:46:09.439] [INFO] results - Action - Tag Type Searched
+[2020-10-18T00:46:10.414] [INFO] results - Action - uploading file
+[2020-10-18T00:46:15.467] [INFO] results - Action - Adding Document Information
+[2020-10-18T00:46:15.467] [INFO] results - Success - uploading file
+[2020-10-18T00:46:18.730] [INFO] results - Success - Uploaded file operation completed Successfully
+[2020-10-18T02:44:11.950] [INFO] results - Action - Logging in Started
+[2020-10-18T02:44:12.597] [INFO] results - Success - Logging in completed
+[2020-10-18T02:44:17.597] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T02:44:17.852] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T02:44:23.294] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T02:44:23.579] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T02:44:23.780] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T02:44:24.708] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T02:44:24.708] [INFO] results - Action - Search Fact Type
+[2020-10-18T02:44:25.587] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T02:44:26.345] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T02:44:26.421] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T02:44:26.524] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T02:44:27.051] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T02:44:27.051] [INFO] results - Action - Search Fact Type
+[2020-10-18T02:44:27.345] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T02:44:27.952] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T02:44:28.031] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T02:44:28.115] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T02:44:28.647] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T02:44:28.647] [INFO] results - Action - Search Fact Type
+[2020-10-18T02:44:28.971] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T02:44:29.551] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T02:44:29.627] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T02:44:29.753] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T02:44:30.249] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T02:44:30.249] [INFO] results - Action - Search Fact Type
+[2020-10-18T02:44:30.514] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T02:44:31.109] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T02:44:31.192] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T02:44:31.284] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T02:44:31.879] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T02:44:31.879] [INFO] results - Action - Search Fact Type
+[2020-10-18T02:44:32.137] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T02:44:40.215] [INFO] results - Action - Logging in Started
+[2020-10-18T02:44:41.377] [INFO] results - Success - Logging in completed
+[2020-10-18T02:44:47.360] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T02:44:47.635] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T02:44:50.240] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T02:44:50.484] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T02:44:50.634] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T02:44:51.524] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T02:44:51.524] [INFO] results - Action - Search Fact Type
+[2020-10-18T02:44:52.406] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T02:44:53.107] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T02:44:53.268] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T02:44:53.268] [INFO] results - Action - load Document Modal
+[2020-10-18T02:44:54.268] [INFO] results - Success - load Document Modal
+[2020-10-18T02:44:54.268] [INFO] results - Action - creating New Document Type
+[2020-10-18T02:44:55.270] [INFO] results - Success - Creating New Document Type
+[2020-10-18T02:44:55.271] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T02:44:56.106] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T02:44:56.868] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T02:44:57.063] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T02:44:57.063] [INFO] results - Action - Create new Tag
+[2020-10-18T02:44:58.180] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T02:44:58.181] [INFO] results - Action - Search Tag Type
+[2020-10-18T02:44:59.390] [INFO] results - Action - Tag Type Searched
+[2020-10-18T02:45:00.312] [INFO] results - Action - uploading file
+[2020-10-18T02:45:05.363] [INFO] results - Action - Adding Document Information
+[2020-10-18T02:45:05.364] [INFO] results - Success - uploading file
+[2020-10-18T02:45:08.590] [INFO] results - Success - Uploaded file operation completed Successfully
+[2020-10-18T02:45:12.226] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T02:45:12.298] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T02:45:22.618] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T02:51:42.009] [INFO] results - Action - Logging in Started
+[2020-10-18T02:51:43.123] [INFO] results - Success - Logging in completed
+[2020-10-18T02:51:48.320] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T02:51:48.626] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T02:51:51.219] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T02:51:51.449] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T02:51:51.633] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T02:51:52.411] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T02:51:52.411] [INFO] results - Action - Search Fact Type
+[2020-10-18T02:51:53.393] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T02:51:54.056] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T02:51:54.193] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T02:51:54.193] [INFO] results - Action - load Document Modal
+[2020-10-18T02:51:55.066] [INFO] results - Success - load Document Modal
+[2020-10-18T02:51:55.067] [INFO] results - Action - creating New Document Type
+[2020-10-18T02:51:55.946] [INFO] results - Success - Creating New Document Type
+[2020-10-18T02:51:55.947] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T02:51:56.770] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T02:51:57.379] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T02:51:57.527] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T02:51:57.527] [INFO] results - Action - Create new Tag
+[2020-10-18T02:51:58.110] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T02:51:58.110] [INFO] results - Action - Search Tag Type
+[2020-10-18T02:51:58.564] [INFO] results - Action - Tag Type Searched
+[2020-10-18T02:51:59.712] [INFO] results - Action - uploading file
+[2020-10-18T02:52:04.770] [INFO] results - Action - Adding Document Information
+[2020-10-18T02:52:04.770] [INFO] results - Success - uploading file
+[2020-10-18T02:52:07.887] [INFO] results - Success - Uploaded file operation completed Successfully
+[2020-10-18T02:52:11.519] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T02:52:11.602] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T02:52:53.523] [INFO] results - Action - Logging in Started
+[2020-10-18T02:52:54.687] [INFO] results - Success - Logging in completed
+[2020-10-18T02:52:59.754] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T02:53:00.094] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T02:53:02.703] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T02:53:02.971] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T02:53:03.161] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T02:53:04.000] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T02:53:04.001] [INFO] results - Action - Search Fact Type
+[2020-10-18T02:53:04.746] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T02:53:05.441] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T02:53:05.591] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T02:53:05.592] [INFO] results - Action - load Document Modal
+[2020-10-18T02:53:06.695] [INFO] results - Success - load Document Modal
+[2020-10-18T02:53:06.695] [INFO] results - Action - creating New Document Type
+[2020-10-18T02:53:07.623] [INFO] results - Success - Creating New Document Type
+[2020-10-18T02:53:07.623] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T02:53:08.742] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T02:53:09.422] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T02:53:09.613] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T02:53:09.613] [INFO] results - Action - Create new Tag
+[2020-10-18T02:53:10.239] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T02:53:10.239] [INFO] results - Action - Search Tag Type
+[2020-10-18T02:53:10.717] [INFO] results - Action - Tag Type Searched
+[2020-10-18T02:53:11.798] [INFO] results - Action - uploading file
+[2020-10-18T02:53:16.851] [INFO] results - Action - Adding Document Information
+[2020-10-18T02:53:16.851] [INFO] results - Success - uploading file
+[2020-10-18T02:53:20.095] [INFO] results - Success - Uploaded file operation completed Successfully
+[2020-10-18T02:53:23.713] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T02:53:23.814] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T02:55:05.446] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T02:55:05.589] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T02:55:09.493] [INFO] results - Action - Search Tag Type
+[2020-10-18T03:03:04.580] [INFO] results - Action - Logging in Started
+[2020-10-18T03:03:04.972] [INFO] results - Success - Logging in completed
+[2020-10-18T03:03:10.314] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T03:03:10.595] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T03:03:15.442] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T03:03:15.714] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T03:03:15.935] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T03:03:16.789] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T03:03:16.790] [INFO] results - Action - Search Fact Type
+[2020-10-18T03:03:17.846] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T03:03:18.567] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T03:03:18.738] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T03:03:18.738] [INFO] results - Action - load Document Modal
+[2020-10-18T03:03:19.656] [INFO] results - Success - load Document Modal
+[2020-10-18T03:03:19.656] [INFO] results - Action - creating New Document Type
+[2020-10-18T03:03:20.586] [INFO] results - Success - Creating New Document Type
+[2020-10-18T03:03:20.586] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T03:03:21.711] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T03:03:22.416] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T03:03:22.600] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T03:03:22.601] [INFO] results - Action - Create new Tag
+[2020-10-18T03:03:23.266] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T03:03:23.266] [INFO] results - Action - Search Tag Type
+[2020-10-18T03:03:23.721] [INFO] results - Action - Tag Type Searched
+[2020-10-18T03:03:24.779] [INFO] results - Action - uploading file
+[2020-10-18T03:03:29.838] [INFO] results - Action - Adding Document Information
+[2020-10-18T03:03:29.838] [INFO] results - Success - uploading file
+[2020-10-18T03:03:33.005] [INFO] results - Success - Uploaded file operation completed Successfully
+[2020-10-18T03:03:36.592] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T03:03:36.659] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T03:03:37.368] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T03:03:38.221] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T03:05:33.864] [INFO] results - Action - Logging in Started
+[2020-10-18T03:05:34.979] [INFO] results - Success - Logging in completed
+[2020-10-18T03:05:40.552] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T03:05:40.830] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T03:05:43.435] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T03:05:43.664] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T03:05:43.814] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T03:05:44.598] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T03:05:44.598] [INFO] results - Action - Search Fact Type
+[2020-10-18T03:05:45.408] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T03:05:46.076] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T03:05:46.218] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T03:05:46.218] [INFO] results - Action - load Document Modal
+[2020-10-18T03:05:47.386] [INFO] results - Success - load Document Modal
+[2020-10-18T03:05:47.387] [INFO] results - Action - creating New Document Type
+[2020-10-18T03:05:48.842] [INFO] results - Success - Creating New Document Type
+[2020-10-18T03:05:48.843] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T03:05:49.928] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T03:05:50.584] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T03:05:50.757] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T03:05:50.758] [INFO] results - Action - Create new Tag
+[2020-10-18T03:05:51.329] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T03:05:51.330] [INFO] results - Action - Search Tag Type
+[2020-10-18T03:05:51.756] [INFO] results - Action - Tag Type Searched
+[2020-10-18T03:05:52.743] [INFO] results - Action - uploading file
+[2020-10-18T03:05:57.799] [INFO] results - Action - Adding Document Information
+[2020-10-18T03:05:57.799] [INFO] results - Success - uploading file
+[2020-10-18T03:05:58.528] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T03:05:58.663] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T03:05:59.262] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T03:06:06.961] [INFO] results - Action - Logging in Started
+[2020-10-18T03:06:08.113] [INFO] results - Success - Logging in completed
+[2020-10-18T03:06:12.787] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T03:06:12.808] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T03:06:12.832] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T03:06:12.864] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T03:06:12.899] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T03:06:12.920] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T03:09:04.362] [INFO] results - Action - Logging in Started
+[2020-10-18T03:09:05.477] [INFO] results - Success - Logging in completed
+[2020-10-18T03:09:10.930] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T03:09:11.234] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T03:09:14.641] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T03:09:14.917] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T03:09:15.123] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T03:09:15.892] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T03:09:15.893] [INFO] results - Action - Search Fact Type
+[2020-10-18T03:09:16.896] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T03:09:17.588] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T03:09:17.736] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T03:09:17.736] [INFO] results - Action - load Document Modal
+[2020-10-18T03:09:18.616] [INFO] results - Success - load Document Modal
+[2020-10-18T03:09:18.617] [INFO] results - Action - creating New Document Type
+[2020-10-18T03:09:19.548] [INFO] results - Success - Creating New Document Type
+[2020-10-18T03:09:19.550] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T03:09:20.386] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T03:09:21.081] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T03:09:21.215] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T03:09:21.215] [INFO] results - Action - Create new Tag
+[2020-10-18T03:09:21.825] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T03:09:21.826] [INFO] results - Action - Search Tag Type
+[2020-10-18T03:09:22.237] [INFO] results - Action - Tag Type Searched
+[2020-10-18T03:09:23.142] [INFO] results - Action - uploading file
+[2020-10-18T03:09:28.207] [INFO] results - Action - Adding Document Information
+[2020-10-18T03:09:28.208] [INFO] results - Success - uploading file
+[2020-10-18T03:09:31.394] [INFO] results - Success - Uploaded file operation completed Successfully
+[2020-10-18T03:09:34.987] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T03:09:35.098] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T03:09:35.780] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T03:09:36.634] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T03:09:42.092] [INFO] results - Action - Logging in Started
+[2020-10-18T03:09:42.153] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T03:09:42.184] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T03:09:42.206] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T03:09:42.234] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T03:09:42.252] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T03:09:42.261] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:11:19.035] [INFO] results - Action - Logging in Started
+[2020-10-18T09:11:20.210] [INFO] results - Success - Logging in completed
+[2020-10-18T09:11:25.235] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T09:11:25.576] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T09:11:29.935] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T09:11:30.319] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T09:11:30.618] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T09:11:31.487] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T09:11:31.488] [INFO] results - Action - Search Fact Type
+[2020-10-18T09:11:32.088] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T09:11:32.579] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:11:32.745] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T09:11:32.745] [INFO] results - Action - load Document Modal
+[2020-10-18T09:11:33.646] [INFO] results - Success - load Document Modal
+[2020-10-18T09:11:33.646] [INFO] results - Action - creating New Document Type
+[2020-10-18T09:11:34.382] [INFO] results - Success - Creating New Document Type
+[2020-10-18T09:11:34.382] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T09:11:34.885] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T09:11:35.352] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T09:11:35.519] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T09:11:35.519] [INFO] results - Action - Create new Tag
+[2020-10-18T09:11:35.969] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T09:11:35.969] [INFO] results - Action - Search Tag Type
+[2020-10-18T09:11:36.251] [INFO] results - Action - Tag Type Searched
+[2020-10-18T09:11:37.031] [INFO] results - Action - uploading file
+[2020-10-18T09:11:42.089] [INFO] results - Action - Adding Document Information
+[2020-10-18T09:11:42.089] [INFO] results - Success - uploading file
+[2020-10-18T09:11:42.665] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:11:42.737] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T09:11:43.216] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:11:52.001] [INFO] results - Action - Logging in Started
+[2020-10-18T09:11:52.483] [INFO] results - Success - Logging in completed
+[2020-10-18T09:11:56.929] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T09:11:57.195] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T09:11:59.642] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T09:11:59.901] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T09:12:00.084] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T09:12:00.917] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T09:12:00.917] [INFO] results - Action - Search Fact Type
+[2020-10-18T09:12:01.587] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T09:12:02.048] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:12:02.252] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T09:12:02.252] [INFO] results - Action - load Document Modal
+[2020-10-18T09:12:03.098] [INFO] results - Success - load Document Modal
+[2020-10-18T09:12:03.098] [INFO] results - Action - creating New Document Type
+[2020-10-18T09:12:03.781] [INFO] results - Success - Creating New Document Type
+[2020-10-18T09:12:03.781] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T09:12:04.299] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T09:12:04.754] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T09:12:04.946] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T09:12:04.946] [INFO] results - Action - Create new Tag
+[2020-10-18T09:12:05.436] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T09:12:05.436] [INFO] results - Action - Search Tag Type
+[2020-10-18T09:12:05.765] [INFO] results - Action - Tag Type Searched
+[2020-10-18T09:12:06.535] [INFO] results - Action - uploading file
+[2020-10-18T09:12:11.626] [INFO] results - Action - Adding Document Information
+[2020-10-18T09:12:11.627] [INFO] results - Success - uploading file
+[2020-10-18T09:12:12.523] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:12:12.604] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T09:12:13.106] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:13:40.019] [INFO] results - Action - Logging in Started
+[2020-10-18T09:13:41.135] [INFO] results - Success - Logging in completed
+[2020-10-18T09:13:46.168] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T09:13:46.429] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T09:13:48.917] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T09:13:49.152] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T09:13:49.372] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T09:13:49.972] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T09:13:49.972] [INFO] results - Action - Search Fact Type
+[2020-10-18T09:13:50.504] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T09:13:50.991] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:13:51.145] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T09:13:51.145] [INFO] results - Action - load Document Modal
+[2020-10-18T09:13:52.001] [INFO] results - Success - load Document Modal
+[2020-10-18T09:13:52.001] [INFO] results - Action - creating New Document Type
+[2020-10-18T09:13:52.683] [INFO] results - Success - Creating New Document Type
+[2020-10-18T09:13:52.684] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T09:13:53.321] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T09:13:53.773] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T09:13:53.919] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T09:13:53.919] [INFO] results - Action - Create new Tag
+[2020-10-18T09:13:54.371] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T09:13:54.371] [INFO] results - Action - Search Tag Type
+[2020-10-18T09:13:54.676] [INFO] results - Action - Tag Type Searched
+[2020-10-18T09:13:55.451] [INFO] results - Action - uploading file
+[2020-10-18T09:14:00.525] [INFO] results - Action - Adding Document Information
+[2020-10-18T09:14:00.525] [INFO] results - Success - uploading file
+[2020-10-18T09:14:03.668] [INFO] results - Success - Uploaded file operation completed Successfully
+[2020-10-18T09:14:07.130] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:14:07.200] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T09:14:14.575] [INFO] results - Action - Logging in Started
+[2020-10-18T09:14:15.218] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T09:14:15.236] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T09:14:15.246] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:14:15.258] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T09:14:15.278] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:20:27.326] [INFO] results - Action - Logging in Started
+[2020-10-18T09:20:28.498] [INFO] results - Success - Logging in completed
+[2020-10-18T09:20:34.301] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T09:20:34.576] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T09:20:38.189] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T09:20:38.445] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T09:20:38.578] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T09:20:39.174] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T09:20:39.175] [INFO] results - Action - Search Fact Type
+[2020-10-18T09:20:39.769] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T09:20:40.239] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:20:40.394] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T09:20:40.395] [INFO] results - Action - load Document Modal
+[2020-10-18T09:20:41.273] [INFO] results - Success - load Document Modal
+[2020-10-18T09:20:41.274] [INFO] results - Action - creating New Document Type
+[2020-10-18T09:20:41.974] [INFO] results - Success - Creating New Document Type
+[2020-10-18T09:20:41.975] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T09:20:42.522] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T09:20:42.993] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T09:20:43.143] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T09:20:43.144] [INFO] results - Action - Create new Tag
+[2020-10-18T09:20:43.600] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T09:20:43.600] [INFO] results - Action - Search Tag Type
+[2020-10-18T09:20:43.917] [INFO] results - Action - Tag Type Searched
+[2020-10-18T09:20:44.661] [INFO] results - Action - uploading file
+[2020-10-18T09:20:49.723] [INFO] results - Action - Adding Document Information
+[2020-10-18T09:20:49.723] [INFO] results - Success - uploading file
+[2020-10-18T09:20:52.910] [INFO] results - Success - Uploaded file operation completed Successfully
+[2020-10-18T09:20:56.356] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:20:56.424] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T09:21:05.214] [INFO] results - Action - Logging in Started
+[2020-10-18T09:21:06.355] [INFO] results - Success - Logging in completed
+[2020-10-18T09:21:10.530] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T09:21:10.801] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T09:21:13.230] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T09:21:13.503] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T09:21:13.708] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T09:21:14.364] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T09:21:14.364] [INFO] results - Action - Search Fact Type
+[2020-10-18T09:21:14.912] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T09:21:15.411] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:21:15.581] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T09:21:15.581] [INFO] results - Action - load Document Modal
+[2020-10-18T09:21:16.569] [INFO] results - Success - load Document Modal
+[2020-10-18T09:21:16.570] [INFO] results - Action - creating New Document Type
+[2020-10-18T09:21:17.296] [INFO] results - Success - Creating New Document Type
+[2020-10-18T09:21:17.296] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T09:21:17.898] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T09:21:18.355] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T09:21:18.545] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T09:21:18.545] [INFO] results - Action - Create new Tag
+[2020-10-18T09:21:19.079] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T09:21:19.079] [INFO] results - Action - Search Tag Type
+[2020-10-18T09:21:19.435] [INFO] results - Action - Tag Type Searched
+[2020-10-18T09:21:20.313] [INFO] results - Action - uploading file
+[2020-10-18T09:21:25.360] [INFO] results - Action - Adding Document Information
+[2020-10-18T09:21:25.360] [INFO] results - Success - uploading file
+[2020-10-18T09:21:28.684] [INFO] results - Success - Uploaded file operation completed Successfully
+[2020-10-18T09:21:32.184] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:21:32.327] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T09:48:35.268] [INFO] results - Action - Logging in Started
+[2020-10-18T09:48:36.376] [INFO] results - Success - Logging in completed
+[2020-10-18T09:48:40.966] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T09:48:41.217] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T09:48:43.868] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T09:48:44.106] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T09:48:44.266] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T09:48:44.907] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T09:48:44.907] [INFO] results - Action - Search Fact Type
+[2020-10-18T09:48:45.682] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T09:48:46.193] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:48:46.340] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T09:48:46.340] [INFO] results - Action - load Document Modal
+[2020-10-18T09:48:47.442] [INFO] results - Success - load Document Modal
+[2020-10-18T09:48:47.443] [INFO] results - Action - creating New Document Type
+[2020-10-18T09:48:48.135] [INFO] results - Success - Creating New Document Type
+[2020-10-18T09:48:48.135] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T09:48:48.686] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T09:48:49.149] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T09:48:49.295] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T09:48:49.295] [INFO] results - Action - Create new Tag
+[2020-10-18T09:48:49.810] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T09:48:49.811] [INFO] results - Action - Search Tag Type
+[2020-10-18T09:48:50.065] [INFO] results - Action - Tag Type Searched
+[2020-10-18T09:48:50.847] [INFO] results - Action - uploading file
+[2020-10-18T09:48:55.899] [INFO] results - Action - Adding Document Information
+[2020-10-18T09:48:55.900] [INFO] results - Success - uploading file
+[2020-10-18T09:48:59.074] [INFO] results - Success - Uploaded file operation completed Successfully
+[2020-10-18T09:49:02.519] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:49:02.602] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T09:56:41.631] [INFO] results - Action - Logging in Started
+[2020-10-18T09:56:42.746] [INFO] results - Success - Logging in completed
+[2020-10-18T09:56:47.132] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T09:56:47.386] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T09:56:50.970] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T09:56:51.202] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T09:56:51.378] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T09:56:52.033] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T09:56:52.034] [INFO] results - Action - Search Fact Type
+[2020-10-18T09:56:52.895] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T09:56:53.400] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:56:53.577] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T09:56:53.577] [INFO] results - Action - load Document Modal
+[2020-10-18T09:56:54.752] [INFO] results - Success - load Document Modal
+[2020-10-18T09:56:54.753] [INFO] results - Action - creating New Document Type
+[2020-10-18T09:56:55.445] [INFO] results - Success - Creating New Document Type
+[2020-10-18T09:56:55.445] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T09:56:55.975] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T09:56:56.454] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T09:56:56.628] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T09:56:56.629] [INFO] results - Action - Create new Tag
+[2020-10-18T09:56:57.091] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T09:56:57.091] [INFO] results - Action - Search Tag Type
+[2020-10-18T09:56:57.376] [INFO] results - Action - Tag Type Searched
+[2020-10-18T09:56:58.170] [INFO] results - Action - uploading file
+[2020-10-18T09:57:03.235] [INFO] results - Action - Adding Document Information
+[2020-10-18T09:57:03.235] [INFO] results - Success - uploading file
+[2020-10-18T09:57:03.855] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:57:03.960] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T09:57:14.392] [INFO] results - Action - Logging in Started
+[2020-10-18T09:57:15.479] [INFO] results - Success - Logging in completed
+[2020-10-18T09:57:19.910] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T09:57:20.172] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T09:57:22.618] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T09:57:22.902] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T09:57:23.076] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T09:57:23.902] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T09:57:23.902] [INFO] results - Action - Search Fact Type
+[2020-10-18T09:57:24.486] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T09:57:25.068] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:57:25.250] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T09:57:25.250] [INFO] results - Action - load Document Modal
+[2020-10-18T09:57:26.141] [INFO] results - Success - load Document Modal
+[2020-10-18T09:57:26.142] [INFO] results - Action - creating New Document Type
+[2020-10-18T09:57:27.122] [INFO] results - Success - Creating New Document Type
+[2020-10-18T09:57:27.122] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T09:57:27.795] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T09:57:28.302] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T09:57:28.468] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T09:57:28.468] [INFO] results - Action - Create new Tag
+[2020-10-18T09:57:29.048] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T09:57:29.048] [INFO] results - Action - Search Tag Type
+[2020-10-18T09:57:29.398] [INFO] results - Action - Tag Type Searched
+[2020-10-18T09:57:30.267] [INFO] results - Action - uploading file
+[2020-10-18T09:57:35.317] [INFO] results - Action - Adding Document Information
+[2020-10-18T09:57:35.317] [INFO] results - Success - uploading file
+[2020-10-18T09:57:38.570] [INFO] results - Success - Uploaded file operation completed Successfully
+[2020-10-18T09:57:42.039] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:57:42.118] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T09:59:09.714] [INFO] results - Action - Logging in Started
+[2020-10-18T09:59:10.825] [INFO] results - Success - Logging in completed
+[2020-10-18T09:59:15.475] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T09:59:15.725] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T09:59:18.219] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T09:59:18.452] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T09:59:18.646] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T09:59:19.306] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T09:59:19.307] [INFO] results - Action - Search Fact Type
+[2020-10-18T09:59:19.825] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T09:59:20.302] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:59:20.447] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T09:59:20.447] [INFO] results - Action - load Document Modal
+[2020-10-18T09:59:21.360] [INFO] results - Success - load Document Modal
+[2020-10-18T09:59:21.361] [INFO] results - Action - creating New Document Type
+[2020-10-18T09:59:22.053] [INFO] results - Success - Creating New Document Type
+[2020-10-18T09:59:22.053] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T09:59:22.647] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T09:59:23.114] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T09:59:23.261] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T09:59:23.261] [INFO] results - Action - Create new Tag
+[2020-10-18T09:59:23.877] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T09:59:23.877] [INFO] results - Action - Search Tag Type
+[2020-10-18T09:59:24.158] [INFO] results - Action - Tag Type Searched
+[2020-10-18T09:59:25.127] [INFO] results - Action - uploading file
+[2020-10-18T09:59:30.178] [INFO] results - Action - Adding Document Information
+[2020-10-18T09:59:30.179] [INFO] results - Success - uploading file
+[2020-10-18T09:59:33.392] [INFO] results - Success - Uploaded file operation completed Successfully
+[2020-10-18T09:59:36.890] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:59:36.960] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T09:59:45.779] [INFO] results - Action - Logging in Started
+[2020-10-18T09:59:45.809] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T09:59:45.820] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T09:59:45.827] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T09:59:45.838] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T09:59:45.856] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T10:01:21.469] [INFO] results - Action - Logging in Started
+[2020-10-18T10:01:22.607] [INFO] results - Success - Logging in completed
+[2020-10-18T10:01:27.306] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T10:01:27.538] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T10:01:29.986] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T10:01:30.217] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T10:01:30.387] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T10:01:31.022] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T10:01:31.022] [INFO] results - Action - Search Fact Type
+[2020-10-18T10:01:31.600] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T10:01:32.082] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T10:01:32.232] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T10:01:32.232] [INFO] results - Action - load Document Modal
+[2020-10-18T10:01:33.270] [INFO] results - Success - load Document Modal
+[2020-10-18T10:01:33.270] [INFO] results - Action - creating New Document Type
+[2020-10-18T10:01:33.918] [INFO] results - Success - Creating New Document Type
+[2020-10-18T10:01:33.919] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T10:01:35.015] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T10:01:35.494] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T10:01:35.680] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T10:01:35.680] [INFO] results - Action - Create new Tag
+[2020-10-18T10:01:36.166] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T10:01:36.166] [INFO] results - Action - Search Tag Type
+[2020-10-18T10:01:36.513] [INFO] results - Action - Tag Type Searched
+[2020-10-18T10:01:37.292] [INFO] results - Action - uploading file
+[2020-10-18T10:01:42.356] [INFO] results - Action - Adding Document Information
+[2020-10-18T10:01:42.356] [INFO] results - Success - uploading file
+[2020-10-18T10:01:45.548] [INFO] results - Success - Uploaded file operation completed Successfully
+[2020-10-18T10:01:49.063] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T10:01:49.134] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T10:01:57.819] [INFO] results - Action - Logging in Started
+[2020-10-18T10:01:59.075] [INFO] results - Success - Logging in completed
+[2020-10-18T10:46:16.042] [INFO] results - Action - Logging in Started
+[2020-10-18T10:46:17.258] [INFO] results - Success - Logging in completed
+[2020-10-18T10:46:22.271] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T10:46:22.528] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T10:46:25.849] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T10:46:26.201] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T10:46:26.374] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T10:46:27.262] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T10:46:27.262] [INFO] results - Action - Search Fact Type
+[2020-10-18T10:46:28.028] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T10:46:28.576] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T10:46:28.727] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T10:46:28.727] [INFO] results - Action - load Document Modal
+[2020-10-18T10:46:29.689] [INFO] results - Success - load Document Modal
+[2020-10-18T10:46:29.689] [INFO] results - Action - creating New Document Type
+[2020-10-18T10:46:30.448] [INFO] results - Success - Creating New Document Type
+[2020-10-18T10:46:30.449] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T10:46:31.061] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T10:46:31.565] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T10:46:31.716] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T10:46:31.716] [INFO] results - Action - Create new Tag
+[2020-10-18T10:46:32.248] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T10:46:32.249] [INFO] results - Action - Search Tag Type
+[2020-10-18T10:46:32.670] [INFO] results - Action - Tag Type Searched
+[2020-10-18T10:46:33.497] [INFO] results - Action - uploading file
+[2020-10-18T10:46:38.558] [INFO] results - Action - Adding Document Information
+[2020-10-18T10:46:38.559] [INFO] results - Success - uploading file
+[2020-10-18T10:46:41.720] [INFO] results - Success - Uploaded file operation completed Successfully
+[2020-10-18T10:46:45.181] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T10:46:45.255] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T10:50:05.351] [INFO] results - Action - Logging in Started
+[2020-10-18T10:50:05.387] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T10:50:05.404] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T10:50:05.468] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T10:50:05.528] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T10:50:05.586] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T10:50:49.371] [INFO] results - Action - Logging in Started
+[2020-10-18T10:50:50.453] [INFO] results - Success - Logging in completed
+[2020-10-18T10:50:56.046] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T10:50:56.353] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T10:50:58.803] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T10:50:59.063] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T10:50:59.286] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T10:51:00.027] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T10:51:00.027] [INFO] results - Action - Search Fact Type
+[2020-10-18T10:51:00.702] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T10:51:01.377] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T10:51:01.550] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T10:51:01.550] [INFO] results - Action - load Document Modal
+[2020-10-18T10:51:02.608] [INFO] results - Success - load Document Modal
+[2020-10-18T10:51:02.609] [INFO] results - Action - creating New Document Type
+[2020-10-18T10:51:03.292] [INFO] results - Success - Creating New Document Type
+[2020-10-18T10:51:03.293] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T10:51:03.929] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T10:51:04.430] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T10:51:04.584] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T10:51:04.584] [INFO] results - Action - Create new Tag
+[2020-10-18T10:51:05.066] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T10:51:05.066] [INFO] results - Action - Search Tag Type
+[2020-10-18T10:51:05.461] [INFO] results - Action - Tag Type Searched
+[2020-10-18T10:51:06.330] [INFO] results - Action - uploading file
+[2020-10-18T10:51:11.381] [INFO] results - Action - Adding Document Information
+[2020-10-18T10:51:11.381] [INFO] results - Success - uploading file
+[2020-10-18T10:51:14.633] [INFO] results - Success - Uploaded file operation completed Successfully
+[2020-10-18T10:51:18.099] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T10:51:18.174] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T10:51:34.636] [INFO] results - Action - Logging in Started
+[2020-10-18T10:51:35.819] [INFO] results - Success - Logging in completed
+[2020-10-18T10:59:47.060] [INFO] results - Action - Logging in Started
+[2020-10-18T10:59:48.210] [INFO] results - Success - Logging in completed
+[2020-10-18T10:59:54.323] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T10:59:54.658] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T10:59:57.104] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T10:59:57.367] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T10:59:57.728] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T10:59:58.298] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T10:59:58.298] [INFO] results - Action - Search Fact Type
+[2020-10-18T10:59:58.929] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T10:59:59.501] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T10:59:59.669] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T10:59:59.669] [INFO] results - Action - load Document Modal
+[2020-10-18T11:00:00.909] [INFO] results - Success - load Document Modal
+[2020-10-18T11:00:00.910] [INFO] results - Action - creating New Document Type
+[2020-10-18T11:00:01.623] [INFO] results - Success - Creating New Document Type
+[2020-10-18T11:00:01.624] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T11:00:02.251] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T11:00:02.745] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T11:00:02.923] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T11:00:02.924] [INFO] results - Action - Create new Tag
+[2020-10-18T11:00:03.365] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T11:00:03.365] [INFO] results - Action - Search Tag Type
+[2020-10-18T11:00:03.628] [INFO] results - Action - Tag Type Searched
+[2020-10-18T11:00:04.406] [INFO] results - Action - uploading file
+[2020-10-18T11:00:09.457] [INFO] results - Action - Adding Document Information
+[2020-10-18T11:00:09.457] [INFO] results - Success - uploading file
+[2020-10-18T11:00:12.627] [INFO] results - Success - Uploaded file operation completed Successfully
+[2020-10-18T11:00:16.091] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T11:00:16.165] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T11:00:30.776] [INFO] results - Action - Logging in Started
+[2020-10-18T11:00:31.746] [INFO] results - Success - Logging in completed
+[2020-10-18T11:21:17.046] [INFO] results - Action - Logging in Started
+[2020-10-18T11:21:18.177] [INFO] results - Success - Logging in completed
+[2020-10-18T11:21:22.827] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T11:21:23.129] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T11:21:25.582] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T11:21:25.871] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T11:21:26.058] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T11:21:26.682] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T11:21:26.682] [INFO] results - Action - Search Fact Type
+[2020-10-18T11:21:27.270] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T11:21:27.777] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T11:21:27.933] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T11:21:27.933] [INFO] results - Action - load Document Modal
+[2020-10-18T11:21:28.754] [INFO] results - Success - load Document Modal
+[2020-10-18T11:21:28.754] [INFO] results - Action - creating New Document Type
+[2020-10-18T11:21:29.435] [INFO] results - Success - Creating New Document Type
+[2020-10-18T11:21:29.435] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T11:21:30.036] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T11:21:30.548] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T11:21:30.702] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T11:21:30.702] [INFO] results - Action - Create new Tag
+[2020-10-18T11:21:31.156] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T11:21:31.157] [INFO] results - Action - Search Tag Type
+[2020-10-18T11:21:31.671] [INFO] results - Action - Tag Type Searched
+[2020-10-18T11:21:32.483] [INFO] results - Action - uploading file
+[2020-10-18T11:21:37.537] [INFO] results - Action - Adding Document Information
+[2020-10-18T11:21:37.537] [INFO] results - Success - uploading file
+[2020-10-18T11:21:38.157] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T11:21:38.230] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T12:06:54.278] [INFO] results - Action - Logging in Started
+[2020-10-18T12:06:54.685] [INFO] results - Success - Logging in completed
+[2020-10-18T12:06:59.187] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T12:06:59.462] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T12:07:02.201] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T12:07:02.483] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T12:07:02.640] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T12:07:03.369] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T12:07:03.369] [INFO] results - Action - Search Fact Type
+[2020-10-18T12:07:03.940] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T12:07:04.460] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T12:07:04.624] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T12:07:04.624] [INFO] results - Action - load Document Modal
+[2020-10-18T12:07:05.676] [INFO] results - Success - load Document Modal
+[2020-10-18T12:07:05.676] [INFO] results - Action - creating New Document Type
+[2020-10-18T12:07:06.437] [INFO] results - Success - Creating New Document Type
+[2020-10-18T12:07:06.438] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T12:07:07.499] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T12:07:08.046] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T12:07:08.215] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T12:07:08.216] [INFO] results - Action - Create new Tag
+[2020-10-18T12:07:08.854] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T12:07:08.855] [INFO] results - Action - Search Tag Type
+[2020-10-18T12:07:09.124] [INFO] results - Action - Tag Type Searched
+[2020-10-18T12:07:09.897] [INFO] results - Action - uploading file
+[2020-10-18T12:07:14.950] [INFO] results - Action - Adding Document Information
+[2020-10-18T12:07:14.950] [INFO] results - Success - uploading file
+[2020-10-18T12:07:15.590] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T12:07:15.662] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T12:09:24.947] [INFO] results - Action - Logging in Started
+[2020-10-18T12:09:26.017] [INFO] results - Success - Logging in completed
+[2020-10-18T12:09:30.492] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T12:09:30.750] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T12:09:33.216] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T12:09:33.470] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T12:09:33.658] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T12:09:34.424] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T12:09:34.424] [INFO] results - Action - Search Fact Type
+[2020-10-18T12:09:35.047] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T12:09:35.554] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T12:09:35.711] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T12:09:35.711] [INFO] results - Action - load Document Modal
+[2020-10-18T12:09:36.744] [INFO] results - Success - load Document Modal
+[2020-10-18T12:09:36.746] [INFO] results - Action - creating New Document Type
+[2020-10-18T12:09:37.434] [INFO] results - Success - Creating New Document Type
+[2020-10-18T12:09:37.434] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T12:09:37.925] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T12:09:38.414] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T12:09:38.584] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T12:09:38.584] [INFO] results - Action - Create new Tag
+[2020-10-18T12:09:39.053] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T12:09:39.053] [INFO] results - Action - Search Tag Type
+[2020-10-18T12:09:39.383] [INFO] results - Action - Tag Type Searched
+[2020-10-18T12:09:40.102] [INFO] results - Action - uploading file
+[2020-10-18T12:09:45.169] [INFO] results - Action - Adding Document Information
+[2020-10-18T12:09:45.169] [INFO] results - Success - uploading file
+[2020-10-18T12:09:48.493] [INFO] results - Success - Uploaded file operation completed Successfully
+[2020-10-18T12:09:51.977] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T12:09:52.046] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T12:11:36.724] [INFO] results - Action - Logging in Started
+[2020-10-18T12:11:37.823] [INFO] results - Success - Logging in completed
+[2020-10-18T12:11:42.742] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T12:11:42.991] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T12:11:45.435] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T12:11:45.674] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T12:11:45.872] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T12:11:46.554] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T12:11:46.554] [INFO] results - Action - Search Fact Type
+[2020-10-18T12:11:47.059] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T12:11:47.566] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T12:11:47.720] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T12:11:47.720] [INFO] results - Action - load Document Modal
+[2020-10-18T12:11:48.561] [INFO] results - Success - load Document Modal
+[2020-10-18T12:11:48.562] [INFO] results - Action - creating New Document Type
+[2020-10-18T12:11:49.401] [INFO] results - Success - Creating New Document Type
+[2020-10-18T12:11:49.402] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T12:11:49.953] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T12:11:50.440] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T12:11:50.586] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T12:11:50.586] [INFO] results - Action - Create new Tag
+[2020-10-18T12:11:51.034] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T12:11:51.034] [INFO] results - Action - Search Tag Type
+[2020-10-18T12:11:51.387] [INFO] results - Action - Tag Type Searched
+[2020-10-18T12:11:52.152] [INFO] results - Action - uploading file
+[2020-10-18T12:11:57.205] [INFO] results - Action - Adding Document Information
+[2020-10-18T12:11:57.206] [INFO] results - Success - uploading file
+[2020-10-18T12:12:00.316] [INFO] results - Success - Uploaded file operation completed Successfully
+[2020-10-18T12:12:03.805] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T12:12:03.883] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T12:16:30.287] [INFO] results - Action - Logging in Started
+[2020-10-18T12:16:31.332] [INFO] results - Success - Logging in completed
+[2020-10-18T12:16:36.164] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T12:16:36.493] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T12:16:38.957] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T12:16:39.241] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T12:16:39.431] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T12:16:40.077] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T12:16:40.078] [INFO] results - Action - Search Fact Type
+[2020-10-18T12:16:40.750] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T12:16:41.258] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T12:16:41.509] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T12:16:41.509] [INFO] results - Action - load Document Modal
+[2020-10-18T12:16:42.489] [INFO] results - Success - load Document Modal
+[2020-10-18T12:16:42.489] [INFO] results - Action - creating New Document Type
+[2020-10-18T12:16:43.164] [INFO] results - Success - Creating New Document Type
+[2020-10-18T12:16:43.164] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T12:16:43.703] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T12:16:44.188] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T12:16:44.373] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T12:16:44.373] [INFO] results - Action - Create new Tag
+[2020-10-18T12:16:44.815] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T12:16:44.815] [INFO] results - Action - Search Tag Type
+[2020-10-18T12:16:45.129] [INFO] results - Action - Tag Type Searched
+[2020-10-18T12:16:45.964] [INFO] results - Action - uploading file
+[2020-10-18T12:16:51.017] [INFO] results - Action - Adding Document Information
+[2020-10-18T12:16:51.017] [INFO] results - Success - uploading file
+[2020-10-18T12:16:54.192] [INFO] results - Success - Uploaded file operation completed Successfully
+[2020-10-18T12:16:57.670] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T12:16:57.738] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T12:29:06.234] [INFO] results - Action - Logging in Started
+[2020-10-18T12:29:07.371] [INFO] results - Success - Logging in completed
+[2020-10-18T12:29:12.428] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T12:29:12.673] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T12:29:17.022] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T12:29:17.292] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T12:29:17.433] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T12:29:18.080] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T12:29:18.080] [INFO] results - Action - Search Fact Type
+[2020-10-18T12:29:18.681] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T12:29:19.178] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T12:29:19.353] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T12:29:19.353] [INFO] results - Action - load Document Modal
+[2020-10-18T12:29:20.500] [INFO] results - Success - load Document Modal
+[2020-10-18T12:29:20.501] [INFO] results - Action - creating New Document Type
+[2020-10-18T12:29:21.196] [INFO] results - Success - Creating New Document Type
+[2020-10-18T12:29:21.196] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T12:29:21.708] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T12:29:22.186] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T12:29:22.358] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T12:29:22.359] [INFO] results - Action - Create new Tag
+[2020-10-18T12:29:22.833] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T12:29:22.833] [INFO] results - Action - Search Tag Type
+[2020-10-18T12:29:23.105] [INFO] results - Action - Tag Type Searched
+[2020-10-18T12:29:23.932] [INFO] results - Action - uploading file
+[2020-10-18T12:29:28.985] [INFO] results - Action - Adding Document Information
+[2020-10-18T12:29:28.986] [INFO] results - Success - uploading file
+[2020-10-18T12:29:29.595] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T12:29:29.659] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T12:29:46.145] [INFO] results - Action - Logging in Started
+[2020-10-18T12:29:47.278] [INFO] results - Success - Logging in completed
+[2020-10-18T12:29:51.105] [INFO] results - Action - Navigating to Fact Menu
+[2020-10-18T12:29:51.373] [INFO] results - Success - Navigation complete to Fact Menu
+[2020-10-18T12:29:53.853] [INFO] results - Action - Loading Fact Modal
+[2020-10-18T12:29:54.127] [INFO] results - Success - Loading of Fact Modal Complete
+[2020-10-18T12:29:54.394] [INFO] results - Action - Creating New Fact Type
+[2020-10-18T12:29:55.021] [INFO] results - Success - Fact Type Creation Complete
+[2020-10-18T12:29:55.021] [INFO] results - Action - Search Fact Type
+[2020-10-18T12:29:55.811] [INFO] results - Success - Success Searching Fact Type
+[2020-10-18T12:29:56.320] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T12:29:56.497] [INFO] results - Success - Navigating to Document Menu
+[2020-10-18T12:29:56.497] [INFO] results - Action - load Document Modal
+[2020-10-18T12:29:57.703] [INFO] results - Success - load Document Modal
+[2020-10-18T12:29:57.703] [INFO] results - Action - creating New Document Type
+[2020-10-18T12:29:58.438] [INFO] results - Success - Creating New Document Type
+[2020-10-18T12:29:58.438] [INFO] results - Action - Creating new Search Doc Type
+[2020-10-18T12:29:58.941] [INFO] results - Success - Creating new Search Doc Type
+[2020-10-18T12:29:59.733] [INFO] results - Action - Navigating to Tag Menu
+[2020-10-18T12:29:59.905] [INFO] results - Success - Nav to Tag menu
+[2020-10-18T12:29:59.905] [INFO] results - Action - Create new Tag
+[2020-10-18T12:30:00.448] [INFO] results - Success - Tag Created Successfully
+[2020-10-18T12:30:00.449] [INFO] results - Action - Search Tag Type
+[2020-10-18T12:30:00.796] [INFO] results - Action - Tag Type Searched
+[2020-10-18T12:30:01.609] [INFO] results - Action - uploading file
+[2020-10-18T12:30:06.664] [INFO] results - Action - Adding Document Information
+[2020-10-18T12:30:06.664] [INFO] results - Success - uploading file
+[2020-10-18T12:30:09.834] [INFO] results - Success - Uploaded file operation completed Successfully
+[2020-10-18T12:30:13.299] [INFO] results - Action - navigate To Document Menu
+[2020-10-18T12:30:13.371] [INFO] results - Success - Navigating to Document Menu

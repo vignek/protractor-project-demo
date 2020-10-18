@@ -1,13 +1,7 @@
+1.   // Handle Confirm Popup - Race Condition 
 
-    // it('should validate the document type and tag of the document', async () => {
-    //     await DocumentPage.navigateToDocumentMenu();
-    //     expect(TagPage.searchTagType()).toExist();
-    // });
+2. // Selecting the First Element
 
-    // it('should validate the fact type and tag of the document', async () => {
-    //     await DocumentPage.navigateToDocumentMenu();
-    //     expect(TagPage.searchTagType()).toBeGreaterThan(1);
-    // });
 
     /* 
     28. Click on "Documents" menu item on top bar
@@ -16,3 +10,68 @@
     31. Validate the document type and tag of the document
     32. Validate the fact types and their values by entering fact type names in Search input and clicking on them
     */
+
+
+    https://app.thoughttrace.dev/qa/documents
+
+
+    Button with Text : Refresh
+
+    a[title="Expand"] - Double headed arrow Hover ? Hidden ? Will click work ?
+
+    a[class^="document-type] - get text
+
+    div[class*="tag-chip"] - get text
+
+    button[ - > With text : Document Type
+
+    input[placeholder="Search document types"]
+
+    li[title="Oil and Gas Lease"] - click
+
+    clr-icon[shape="check"] - verify if it exists
+
+    ttc-document-type-filter-dialog button[type="submit"]
+
+    clr-dg-column[class^="document-search-uploaded-column"] clr-icon[shape="arrow"]
+
+
+
+
+
+    a[title="Expand"] - Double headed arrow
+
+    label[for="content-panel-choice-thoughts"] - Thoughts label  - sleep 3000
+
+    input[placeholder="Search"] - search for the county / something common - make sure
+
+    div[title="County"]
+
+    div[class*="string-textarea has-value"]
+
+    div[class*="ui-contextmenu"] ul span[class="ui-menuitem-text"] - Confirm as Fact - as a text
+
+    input[placeholder="Search for a Fact"] just search for string fact
+
+    div[title="4110588-AutoMF_NoLimit-5wc7Z > AutoMF_NoLimit_Field-KSQString"] - fact name
+
+    button[type="submit"] span with text Confirm
+
+    Refresh
+
+    div[class="radio btn toggle-button-facts"] - fact button
+
+    div[class="upload-list-table"] div[class="row ng-star-inserted"] span[class="ng-star-inserted"] - Completed message
+
+
+/*
+button with Text Tags
+
+input placeholder="Search tags"
+
+previous tag created
+
+form[class^="filter"] Button with Text Apply
+
+clr-dg-cell[class^="document-search-actions-column"] a[class^="action-button"]
+*/
