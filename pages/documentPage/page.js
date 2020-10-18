@@ -36,6 +36,21 @@ const contentSearch = element(by.css(SELECTORS.contentSearch));
 const contentFactTag = element(by.css(SELECTORS.contentFactTag));
 const factTag = element(by.css(SELECTORS.factTag));
 
+const documentTypeButton = element(by.buttonText('Document Type'));
+const searchDocument = element(by.css(SELECTORS.searchDocType));
+const oilAndGasType = element(by.css(SELECTORS.oilAndGasDocType));
+const submitButton = element(by.css(SELECTORS.typeApplyButton));
+const uploadArrowIcon = element(by.css(SELECTORS.uploadArrowIcon));
+const contentTagThoughts = element(by.css(SELECTORS.contentTagThoughts));
+const documentTypePill = element(by.css(SELECTORS.documentTypePill));
+const stringThoughtCounty = element(by.css(SELECTORS.countyThought));
+const countyStringText = element.all(by.css(SELECTORS.thoughtTextArea)).first();
+const confirmAsFactOption = element(by.cssContainingText(SELECTORS.contextMenuArea,'Confirm as Fact'));
+const searchForFact = element(by.css(SELECTORS.searchForFact))
+const newFactType = element(by.css(SELECTORS.newFactType));
+const factSubmitButton = element(by.css(SELECTORS.factSubmitButton));
+const factCountBadge = element(by.css(SELECTORS.factCountBadge));
+
 class DocumentPage extends BasePage {
     constructor() {
         super();
@@ -80,10 +95,13 @@ class DocumentPage extends BasePage {
 
         };
 
-        this.openMostRecentDocument = async () => {
+        this.openMostRecentDocument = async (clickArrow = false) => {
             browser.wait(EC.elementToBeClickable(refreshDocumentListButton));
             await refreshDocumentListButton.click();
-            browser.sleep(5000);
+            if(clickArrow == true ) {
+             await uploadArrowIcon.click();             
+            }
+            browser.sleep(3000);
             await browser.driver.executeScript("arguments[0].click();", expandDocumentIcon.getWebElement());
           };
 
@@ -106,6 +124,44 @@ class DocumentPage extends BasePage {
           await contentSearch.sendKeys(FactPage.userFactName);
           return await factTag.getText();
         };
+
+        this.confirmThoughtAsFact = async (thought) => {
+          browser.sleep(3000); // Waiting for page load
+          browser.wait(EC.elementToBeClickable(contentTagThoughts, 5000));
+          await contentTagThoughts.click();
+          
+          browser.wait(EC.elementToBeClickable(contentSearch, 5000));
+          await contentSearch.click();
+          await contentSearch.sendKeys(thought);
+          
+          await stringThoughtCounty.click();
+          browser.wait(EC.elementToBeClickable(countyStringText, 5000));
+          await countyStringText.click();
+         
+          browser.wait(EC.elementToBeClickable(confirmAsFactOption, 5000));
+          await confirmAsFactOption.click();
+
+          browser.wait(EC.elementToBeClickable(searchForFact, 5000));
+          await searchForFact.click();
+          await searchForFact.sendKeys(FactPage.userFactName);
+
+          browser.wait(EC.elementToBeClickable(newFactType, 5000));
+          await newFactType.click();
+          
+          browser.wait(EC.elementToBeClickable(factSubmitButton, 5000));
+          await factSubmitButton.click();
+
+          await browser.refresh();
+
+          };
+
+          this.factThoughtcount = async () => {
+            browser.wait(EC.elementToBeClickable(contentSearch, 5000));
+            await contentFactTag.click();
+            await contentSearch.click();
+            await contentSearch.sendKeys(FactPage.userFactName);
+            return await factCountBadge.getText();
+          };
 
         this.createNewDocType = async (dataType) => {
             logger.info("Action - creating New Document Type");
@@ -133,6 +189,22 @@ class DocumentPage extends BasePage {
             await this.inDom(SearchResultElement);
             logger.info("Success - Creating new Search Doc Type");
             return await SearchResultElement.count();
+          };
+
+          this.searchDocTypeDropDown = async () => {
+            logger.info("Action - Creating new Doc Type")
+            await browser.wait(EC.elementToBeClickable(documentTypeButton, 5000));
+            await documentTypeButton.click();
+
+            await searchDocument.clear();
+            await searchDocument.click();
+            await searchDocument.sendKeys('Oil and Gas Lease');
+            await browser.wait(EC.elementToBeClickable(oilAndGasType, 5000));
+            await oilAndGasType.click();
+            await this.inDom(submitButton);
+            await submitButton.click();
+            logger.info("Success - Create new Doc Type");
+            return await documentTypePill.getText();
           };
 
     }
