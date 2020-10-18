@@ -16,6 +16,16 @@ export default {
     DocumentModal : '//h3[contains(text(),"New Document Type")]',
     SaveButton : 'div.modal-footer > button.btn.btn-primary',
     documentSearch : 'div > ttc-document-type-management > ttc-search-input > input',
-    SearchResultElement : 'div.datagrid-row-scrollable > div > clr-dg-cell.datagrid-cell.ng-star-inserted:nth-child(8) span'
-        
+    SearchResultElement : 'div.datagrid-row-scrollable > div > clr-dg-cell.datagrid-cell.ng-star-inserted:nth-child(8) span',
+    documentsPageIcon : 'header[class="header header-white"] span[class="nav-text"]',
+    expandDocumentIcon : 'div > clr-dg-cell.document-search-actions-column.flex-vertical.datagrid-fixed-width.datagrid-cell.ng-star-inserted > div > a',
+    tagNameIcon : 'clr-dg-cell[class*="document-search-tag-column"] span[class^="label"]',
+    documentType : 'a[class^="document-type"]',
+    tagChip : 'header[class^="header"] div[class*="tag-chip"]',
+    tagsInputSearch : 'input[placeholder="Search tags"]',
+    tagSelection : 'ul li[title="', // tag_name_previous"]
+    tagsFormApplyButton : 'form[class^="filter"]',
+    contentSearch : 'input[placeholder="Search"]',
+    contentFactTag : 'label[for="content-panel-choice-facts"]',
+    factTag : 'div[class="fact-type-name"] div'
 };

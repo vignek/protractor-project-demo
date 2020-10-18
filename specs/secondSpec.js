@@ -5,7 +5,7 @@ import UploadPage from '../pages/uploadPage/page';
 import FactPage from '../pages/factPage/page';
 import USERDATA from '../data/common';
 
-const documentPath = './OGL_3.pdf'
+const documentPath = './OGL.pdf'
 
 describe ('verify that uploading a document with fact types and verify the thoughts/facts/tags', () => {
     beforeAll(async () => {
@@ -47,9 +47,18 @@ describe ('verify that uploading a document with fact types and verify the thoug
         expect(TagPage.searchTagType()).toBeGreaterThan(1);
     });
 
-    it('should be displayed with PDF view of the document', async () => {
-        await UploadPage.get();     
-        await expect(UploadPage.addFiles(documentPath)).toBe('Completed');  // Tag doesn't get added
+    it('should be upload PDF document with custom fields', async () => {
+        await UploadPage.get();
+        await expect(UploadPage.addFiles(documentPath)).toBe('Completed');
+    });
+
+    it('should validate the type and tag of the document', async () => {
+        await DocumentPage.navigateToDocumentSearchPage();
+        await DocumentPage.waitForListItems();
+        await DocumentPage.openMostRecentDocument();
+        expect(DocumentPage.getDocumentType()).toBe(DocumentPage.userDocumentName);
+        expect(DocumentPage.getTag()).toBe(TagPage.userTagName);
+        expect(DocumentPage.getFactType()).toBe(FactPage.userFactName);
     });
 
 });

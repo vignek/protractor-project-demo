@@ -12,5 +12,5 @@ export default {
     documentPath : '../../data/OGL_DEMO_(10).pdf',
     factType: {'name': `first_fact_${randomWords()}`, 'description': `${randomWords()}_Description`},
     docName: {'name': `fist_document_${randomWords()}`, 'description':`${randomWords()}_description`, 'thought' : 'Oil and Gas Lease'},
-    tagName: {'name': `_tag_name_${randomWords()}`, 'description': `${randomWords()}_Description`},
+    tagName: {'name': `tag_name_${randomWords()}`, 'description': `${randomWords()}_Description`},
 };
