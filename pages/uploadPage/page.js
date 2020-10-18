@@ -70,7 +70,6 @@ class uploadPage extends BasePage {
             await applyTagButton.click();
             browser.sleep(2000);
             browser.actions().sendKeys(protractor.Key.ENTER).perform();
-
             browser.wait(EC.elementToBeClickable(addFactButton));
             await addFactButton.click();            
             await searchFactType.click();
@@ -78,7 +77,6 @@ class uploadPage extends BasePage {
             await selectFactType.click();
             await stringFactType.click();
             await stringFactType.sendKeys(FactPage.userFactDescription);
-
             await UploadButton.click();
             browser.sleep(3000);
             logger.info('Success - Uploaded file operation completed Successfully');
