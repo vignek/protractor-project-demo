@@ -22,14 +22,15 @@ const SaveButton = element(by.css(SELECTORS.SaveButton));
 const FactsSearchBox = element(by.css(SELECTORS.FactsSearchBox));
 const SearchResultElement = element.all(by.css(SELECTORS.SearchResultElement));
 
-const userFactName = USERDATA.factType.name;
-const userFactDescription = USERDATA.factType.description;
 
 class FactPage extends BasePage {
     constructor() {
         super();
         this.url = USERDATA.factUrl;
         this.pageLoaded = this.isVisible($(SELECTORS.FactSearch));
+
+        this.userFactName = USERDATA.factType.name;
+        this.userFactDescription = USERDATA.factType.description;
         
         this.get = async () => {
           await browser.get(USERDATA.factUrl);
@@ -60,10 +61,10 @@ class FactPage extends BasePage {
           logger.info("Action - Creating New Fact Type");
           await browser.wait(EC.elementToBeClickable(FactName, 5000));
           await FactName.click();
-          await FactName.sendKeys(userFactName);
+          await FactName.sendKeys(this.userFactName);
           await browser.wait(EC.elementToBeClickable(FactDescription, 5000));
           await FactDescription.click();
-          await FactDescription.sendKeys(userFactDescription);
+          await FactDescription.sendKeys(this.userFactDescription);
 
           if( dataType === 'String') {
             await StringDataType.click();
@@ -92,7 +93,7 @@ class FactPage extends BasePage {
           await browser.wait(EC.elementToBeClickable(FactsSearchBox, 5000));
           await FactsSearchBox.clear();
           await FactsSearchBox.click();
-          await FactsSearchBox.sendKeys(userFactName);
+          await FactsSearchBox.sendKeys(this.userFactName);
           logger.info("Success - Success Searching Fact Type");
           return await SearchResultElement.count();
         };

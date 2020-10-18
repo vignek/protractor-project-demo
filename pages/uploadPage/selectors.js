@@ -6,8 +6,18 @@ export default {
     inputType : 'body div > ttc-upload-selection-panel > input[type="file"]',
     uploadButton : 'button[type="submit"]',
     documentSplittingToggle : 'label.clr-control-label',
-    documentType : 'div.clr-control-container div.clr-select-wrapper select.clr-select.ng-pristine.ng-valid.ng-touched > option.ng-star-inserted',
-    fileSelectInput : 'input[type="file"]'
+    fileSelectInput : 'input[type="file"]',
+    documentType : 'select[name="document-type"]',
+    userDocumentName : 'select[name="document-type"] option.ng-star-inserted',
+    completedMessage : 'div[class="upload-list-table"] div[class="row ng-star-inserted"] span[class="ng-star-inserted"]',
+    addTagButton : 'button[class*="add-tag"]',
+    addTagField : 'input[placeholder*="Type to add a tag"]',
+    selectTagItem : 'ttc-multi-select-dialog[filterplaceholder="Type to add a tag"] div li[class*="item"]',
+    applyTagButton : 'div[class="multi-select-container"] ttc-multi-select-dialog[filterplaceholder*="Type"] button[class*="btn-primary"]',
+    addFactButton : 'button[class*="add-fact"] " Fact "',
+    searchFactType : 'input[placeholder="Search for a fact type"]',
+    stringFactType : 'ul[class="fact-field-list"] div input[type="text"]'
+
 };
 
 /* 
@@ -18,9 +28,8 @@ export default {
     documentType 
     select[name="document-type"]
     
-    use -> userDocumentName
-    option 
-    ng-star-inserted
+    userDocumentName
+    option.ng-star-inserted
     Oil and Gas Lease
 
     Add Tag
@@ -35,7 +44,6 @@ export default {
     Apply Button
     div[class="multi-select-container"] ttc-multi-select-dialog[filterplaceholder*="Type"] button[class*="btn-primary"]
 
-
     Add Fact -> Button with text
     button[class*="add-fact"] " Fact "
 
@@ -44,24 +52,58 @@ export default {
     Search for a Fact Type : 
     input[placeholder="Search for a fact type"]
 
-
     Button with Text
     div[class*="ui-dropdown-items-wrapper"]  -> Text of the data type
-
 
     String
     ul[class="fact-field-list"] div input[type="text"]
 
 
-    // Date
-    // ul[class="fact-field-list"] div input[type="text"]
-    // Number
-    // ul[class="fact-field-list"] div input[type="text"]
-
-    // Boolean
-
-    // Select List
+    https://app.thoughttrace.dev/qa/documents
 
 
+    Button with Text : Refresh
+
+    a[title="Expand"] - Double headed arrow Hover ? Hidden ? Will click work ?
+
+    a[class^="document-type] - get text
+
+    div[class*="tag-chip"] - get text
+
+    button[ - > With text : Document Type
+
+    input[placeholder="Search document types"]
+
+    li[title="Oil and Gas Lease"] - click
+
+    clr-icon[shape="check"] - verify if it exists
+
+    ttc-document-type-filter-dialog button[type="submit"]
+
+    clr-dg-column[class^="document-search-uploaded-column"] clr-icon[shape="arrow"]
+
+    a[title="Expand"] - Double headed arrow
+
+    label[for="content-panel-choice-thoughts"] - Thoughts label  - sleep 3000
+
+    input[placeholder="Search"] - search for the county / something common - make sure
+
+    div[title="County"]
+
+    div[class*="string-textarea has-value"]
+
+    div[class*="ui-contextmenu"] ul span[class="ui-menuitem-text"] - Confirm as Fact - as a text
+
+    input[placeholder="Search for a Fact"] just search for string fact
+
+    div[title="4110588-AutoMF_NoLimit-5wc7Z > AutoMF_NoLimit_Field-KSQString"] - fact name
+
+    button[type="submit"] span with text Confirm
+
+    Refresh
+
+    div[class="radio btn toggle-button-facts"] - fact button
+
+    div[class="upload-list-table"] div[class="row ng-star-inserted"] span[class="ng-star-inserted"] - Completed message
 
 */

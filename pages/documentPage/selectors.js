@@ -1,6 +1,6 @@
 export default {
 
-    addDocumentButton : 'div[class*="content-area"] div[class*=flex-horizontal] button[class*="btn btn-primary"]',
+    addDocumentButton : 'div[class^="content-area"] div[class^=flex-horizontal] button[class*="btn btn-primary"] > clr-icon[shape="plus-circle"]',
     documentName : 'form[class*="clr-form"] input[name*="docType-name"]',
     documentDescription : 'form[class*="clr-form"]  textarea[name="docType-description"]',
     documentLinkedClassifications : 'form[class*="clr-form"]  input[name="default-classification-search-text"]',

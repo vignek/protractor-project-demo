@@ -1,0 +1,18 @@
+
+    // it('should validate the document type and tag of the document', async () => {
+    //     await DocumentPage.navigateToDocumentMenu();
+    //     expect(TagPage.searchTagType()).toExist();
+    // });
+
+    // it('should validate the fact type and tag of the document', async () => {
+    //     await DocumentPage.navigateToDocumentMenu();
+    //     expect(TagPage.searchTagType()).toBeGreaterThan(1);
+    // });
+
+    /* 
+    28. Click on "Documents" menu item on top bar
+    29. Click on "Refresh" button to view the document uploaded above
+    30. Click on the expand arrow icon beside the uploaded document to view the document
+    31. Validate the document type and tag of the document
+    32. Validate the fact types and their values by entering fact type names in Search input and clicking on them
+    */

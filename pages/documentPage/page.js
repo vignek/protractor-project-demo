@@ -11,7 +11,7 @@ const logger = log4js.getLogger("results");
 const ListItems = element(by.css(SELECTORS.listItems));
 const DocumentMenuItem = element(by.css(SELECTORS.documentMenuItem));
 const SettingsIcon = element(by.css(SELECTORS.settingsIcon));
-const AddDocumentButton = element(by.css(SELECTORS.addDocumentButton));
+const AddDocumentButton = element(by.buttonText('document type'));
 const DocumentModal = element(by.xpath(SELECTORS.DocumentModal));
 const DocumentName = element(by.css(SELECTORS.documentName));
 const DocumentDescription = element(by.css(SELECTORS.documentDescription));
@@ -20,14 +20,15 @@ const ThoughtExtraction = element(by.css(SELECTORS.thoughtExtraction));
 const DocumentSearch = element(by.css(SELECTORS.documentSearch));
 const SearchResultElement = element.all(by.css(SELECTORS.SearchResultElement));
 const OGLThoughtExtraction = element.all(by.css(SELECTORS.oglthoughtExtraction));
-const userDocumentName = USERDATA.docName.name;
-const userDocumentDescription = USERDATA.docName.description;
 
 class DocumentPage extends BasePage {
     constructor() {
         super();
         this.url = USERDATA.documentUrl;
         this.pageLoaded = this.isVisible($(SELECTORS.documentIcon));
+
+        this.userDocumentName = USERDATA.docName.name;
+        this.userDocumentDescription = USERDATA.docName.description;
 
         this.waitForListItems = async () => {
             return this.inDom(ListItems);
@@ -59,11 +60,11 @@ class DocumentPage extends BasePage {
             logger.info("Action - creating New Document Type");
             await browser.wait(EC.elementToBeClickable(DocumentName, 5000));
             await DocumentName.click();
-            await DocumentName.sendKeys(userDocumentName);
+            await DocumentName.sendKeys(this.userDocumentName);
 
             await browser.wait(EC.elementToBeClickable(DocumentDescription, 5000));
             await DocumentDescription.click();
-            await DocumentDescription.sendKeys(userDocumentDescription);
+            await DocumentDescription.sendKeys(this.userDocumentDescription);
 
             await this.inDom(ListItems);
             await OGLThoughtExtraction.click();
@@ -73,11 +74,11 @@ class DocumentPage extends BasePage {
           };
 
           this.searchDocType = async () => {
-            logger.info("Action - Creating new Search Doc Type");
+            logger.info("Action - Creating new Search Doc Type")
             await browser.wait(EC.elementToBeClickable(DocumentSearch, 5000));
             await DocumentSearch.clear();
             await DocumentSearch.click();
-            await DocumentSearch.sendKeys(userDocumentName);
+            await DocumentSearch.sendKeys(this.userDocumentName);
             await this.inDom(SearchResultElement);
             logger.info("Success - Creating new Search Doc Type");
             return await SearchResultElement.count();

@@ -1,3 +1,5 @@
+var randomWords = require('random-words');
+
 // store user data in object for ease of use and readability
 export default {
 
@@ -8,7 +10,7 @@ export default {
     tagUrl : 'https://app.thoughttrace.dev/qa/admin/tags',
     uploadUrl : 'https://app.thoughttrace.dev/qa/uploads',
     documentPath : '../../data/OGL_DEMO_(10).pdf',
-    factType: {'name': `first_fact_${Math.random().toString(5)}`, 'description': `${Math.random().toString(5)}_Description`},
-    docName: {'name': `fist_document_${Math.random().toString(5)}`, 'description':`${Math.random().toString(5)}_description`, 'thought' : 'Oil and Gas Lease'},
-    tagName: {'name': `tag_name_${Math.random().toString(5)}`, 'description': `${Math.random().toString(5)}_Description`},
+    factType: {'name': `first_fact_${randomWords()}`, 'description': `${randomWords()}_Description`},
+    docName: {'name': `fist_document_${randomWords()}`, 'description':`${randomWords()}_description`, 'thought' : 'Oil and Gas Lease'},
+    tagName: {'name': `_tag_name_${randomWords()}`, 'description': `${randomWords()}_Description`},
 };

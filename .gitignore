@@ -4,3 +4,4 @@
 specs/test*
 package-lock.json
 allure-results/*
+error.txt
