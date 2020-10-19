@@ -7,7 +7,7 @@ exports.config = {
     // Connect directly to Chrome via directConnect
     directConnect: true,
 
-    specs: ['specs/fourthSpec.js'],
+    specs: ['specs/*.js'],
 
     framework: 'jasmine',
 
