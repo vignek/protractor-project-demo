@@ -57,7 +57,8 @@ describe ('verify that uploading a document with fact types and verify the thoug
         await DocumentPage.waitForListItems();
 
         await DocumentPage.searchFactTypeDropDown(FactPage.userFactName);
-        expect(DocumentPage.searchResultCount).toBe(' 1 - 1 of 1. ');
+        const result = DocumentPage.searchResultCount();
+        expect(result).toContain('1 of 1');
     });
 
 });

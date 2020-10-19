@@ -32,8 +32,8 @@ const addTagChip = element(by.css(SELECTORS.addTagChip));
 const addTagButton = element(by.css(SELECTORS.addTagButton))
 const removeTagChip = element(by.css(SELECTORS.removeTagChip));
 const addTagSearch = element(by.css(SELECTORS.addTagSearch));
-const factFieldTypeEqualsOperator = element(by.cssContainingText(SELECTORS.factFieldType,'Equals'));
-const factFieldTextArea = element(by.css(factFieldTextArea));
+const factFieldTypeEqualsOperator = element.all(by.cssContainingText(SELECTORS.factFieldType,'Equals')).first();
+const factFieldTextArea = element(by.css(SELECTORS.factFieldTextArea));
 const actionsColumn = element(by.css(SELECTORS.actionsColumn));
 const tagSearchButton = element(by.buttonText('Tags'));
 const tagsInputSearch = element(by.css(SELECTORS.tagsInputSearch));
@@ -44,7 +44,8 @@ const factTag = element(by.css(SELECTORS.factTag));
 const documentTypeButton = element(by.buttonText('Document Type'));
 const FactTypeButton = element(by.buttonText('Facts'));
 const buttonApplyTag = element(by.buttonText('Apply'));
-const searchResultPagination = element(by.css(SELECTORS.pagination));
+const searchResultPagination = element.all(by.css(SELECTORS.pagination)).first();
+const searchResultBadge = element(by.css(SELECTORS.searchResultBadge));
 const addTagIcon = element.all(by.css(SELECTORS.addTagIcon)).first();
 const searchDocument = element(by.css(SELECTORS.searchDocType));
 const searchFact = element(by.css(SELECTORS.searchFactType));
@@ -254,30 +255,25 @@ class DocumentPage extends BasePage {
             await searchFact.clear();
             await searchFact.click();
             await searchFact.sendKeys(searchTerm);
-            
+
             await browser.wait(EC.elementToBeClickable(fistFactItem, 5000));
             await fistFactItem.click();
+            await this.inDom(factFieldTypeEqualsOperator);
+            await factFieldTypeEqualsOperator.click();
 
-            // Did not search for fact field text area with Equals as I didn't set value previously
-
-            // await this.inDom(factFieldTypeEqualsOperator);
-            // await factFieldTypeEqualsOperator.click();
-
-            // await browser.wait(EC.elementToBeClickable(factFieldTextArea, 5000));
-            // await factFieldTextArea.click();
-            // await factFieldTextArea.sendKeys()
+            await browser.wait(EC.elementToBeClickable(factFieldTextArea, 5000));
+            const temp = FactPage.userFactDescription;
+            await factFieldTextArea.sendKeys(temp);
 
             await this.inDom(simpleSubmit);
             await simpleSubmit.click();
-
             logger.info("Success - Create new Fact Type");
-            return await documentTypePill.getText();
           };
 
           this.searchResultCount = async () => {
             logger.info("Action - Getting Pagination Result")
-            await this.isVisible($(searchResultPagination));
-            return await searchResultPagination.getText();
+            await this.isVisible($(searchResultBadge));
+            return await searchResultBadge.getText();
           };
 
     }

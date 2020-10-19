@@ -31,7 +31,7 @@ export default {
     tagSelection : 'ul li[title="', // tag_name_previous"]
     tagsFormApplyButton : 'form[class^="filter"]',
     contentSearch : 'input[placeholder="Search"]',
-    pagination: 'div[class*="pagination-description"]',
+    pagination: 'clr-dg-pagination[class="pagination"] div[class*="pagination-description"]',
     contentFactTag : 'label[for="content-panel-choice-facts"]',
     factTag : 'div[class="fact-type-name"] div',
     searchDocType : 'input[placeholder="Search document types"]',
@@ -45,6 +45,7 @@ export default {
     uploadArrowIcon : 'clr-dg-column[class^="document-search-uploaded-column"] clr-icon[shape*="arrow"]',
     contentTagThoughts : 'label[for="content-panel-choice-thoughts"]',
     documentTypePill : 'div[class="filter-panel-content"] span[class^="filter-prominent-text"]',
+    searchResultBadge : 'span[class="badge search-filter-results-count-badge ng-star-inserted"]',
     thoughtName : 'ul[class^="fact-thought-list"] div[class^="thought-name"] div[class="overflow-ellipsis"]',
     factThought : 'div[class*="fact-type-name"] div[class="overflow-ellipsis"]',
     thoughtTextArea : 'div[class="scroll-container"] div[class^="string-textarea has-value"]',
