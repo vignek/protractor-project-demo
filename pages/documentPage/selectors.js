@@ -28,7 +28,7 @@ export default {
     removeTagChip : 'header[class^="header"] div[class*="tag-chip"] clr-icon[class="remove-tag-chip-icon"]',
     tagsInputSearch : 'input[placeholder="Search tags"]',
     addTagIcon : 'div[class^="flex-align-center"] span[class*="overflow-ellipsis"]',
-    tagSelection : 'ul li[title="', // tag_name_previous"]
+    tagSelection : 'ul li[title="',
     tagsFormApplyButton : 'form[class^="filter"]',
     contentSearch : 'input[placeholder="Search"]',
     pagination: 'clr-dg-pagination[class="pagination"] div[class*="pagination-description"]',

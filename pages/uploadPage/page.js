@@ -7,8 +7,6 @@ import log4js from '../../utils/log';
 import SELECTORS from './selectors';
 import path from 'path';
 
-const AddFilesButton = element(by.css(SELECTORS.addFilesButton));
-const AddTagItem = element(by.css(SELECTORS.AddTagItem));
 const UploadButton = element(by.css(SELECTORS.uploadButton));
 const documentSplittingToggle = element(by.css(SELECTORS.documentSplittingToggle));
 const InputType = element(by.css(SELECTORS.inputType));
