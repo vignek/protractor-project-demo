@@ -34,11 +34,13 @@ export default {
     uploadArrowIcon : 'clr-dg-column[class^="document-search-uploaded-column"] clr-icon[shape*="arrow"]',
     contentTagThoughts : 'label[for="content-panel-choice-thoughts"]',
     documentTypePill : 'div[class="filter-panel-content"] span[class^="filter-prominent-text"]',
-    countyThought : 'div[title="County"]',
+    thoughtName : 'ul[class^="fact-thought-list"] div[class^="thought-name"] div[class="overflow-ellipsis"]',
+    factThought : 'div[class*="fact-type-name"] div[class="overflow-ellipsis"]',
     thoughtTextArea : 'div[class="scroll-container"] div[class^="string-textarea has-value"]',
     contextMenuArea : 'div[class^="ui-contextmenu"] li span',
     searchForFact : 'input[placeholder="Search for a Fact"]',
     newFactType : 'ul[class="fact-type-list"] div',
     factSubmitButton : 'button[type="submit"]',
-    factCountBadge : 'span[class*="badge-romantic"]',
+    factCountBadge : 'div[class="occurance-count"] span[class*="badge badge-romantic"]',
+    waitingSpinner : 'div[class^="spinner-container"] span[class="spinner"]'
 };

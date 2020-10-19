@@ -35,7 +35,6 @@ const tagFormApplyButton = element(by.css(SELECTORS.tagsInputSearch));
 const contentSearch = element(by.css(SELECTORS.contentSearch));
 const contentFactTag = element(by.css(SELECTORS.contentFactTag));
 const factTag = element(by.css(SELECTORS.factTag));
-
 const documentTypeButton = element(by.buttonText('Document Type'));
 const searchDocument = element(by.css(SELECTORS.searchDocType));
 const oilAndGasType = element(by.css(SELECTORS.oilAndGasDocType));
@@ -43,13 +42,15 @@ const submitButton = element(by.css(SELECTORS.typeApplyButton));
 const uploadArrowIcon = element(by.css(SELECTORS.uploadArrowIcon));
 const contentTagThoughts = element(by.css(SELECTORS.contentTagThoughts));
 const documentTypePill = element(by.css(SELECTORS.documentTypePill));
-const stringThoughtCounty = element(by.css(SELECTORS.countyThought));
+const thoughtName = element(by.cssContainingText(SELECTORS.thoughtName,'County'));
+const factThoughtCounty = element(by.cssContainingText(SELECTORS.factThought,FactPage.userFactName));
 const countyStringText = element.all(by.css(SELECTORS.thoughtTextArea)).first();
-const confirmAsFactOption = element(by.cssContainingText(SELECTORS.contextMenuArea,'Confirm as Fact'));
-const searchForFact = element(by.css(SELECTORS.searchForFact))
-const newFactType = element(by.css(SELECTORS.newFactType));
+const confirmAsFactOption = element.all(by.cssContainingText(SELECTORS.contextMenuArea,'Confirm as Fact')).first();
+const searchForFact = element(by.css(SELECTORS.searchForFact));
+const newFactType = element.all(by.css(SELECTORS.newFactType)).first();
 const factSubmitButton = element(by.css(SELECTORS.factSubmitButton));
 const factCountBadge = element(by.css(SELECTORS.factCountBadge));
+const waitingSpinner = element(by.css(SELECTORS.waitingSpinner));
 
 class DocumentPage extends BasePage {
     constructor() {
@@ -126,7 +127,8 @@ class DocumentPage extends BasePage {
         };
 
         this.confirmThoughtAsFact = async (thought) => {
-          browser.sleep(3000); // Waiting for page load
+          browser.sleep(5000); // Waiting for page load
+          browser.wait( EC.invisibilityOf(waitingSpinner), 5000 );
           browser.wait(EC.elementToBeClickable(contentTagThoughts, 5000));
           await contentTagThoughts.click();
           
@@ -134,9 +136,13 @@ class DocumentPage extends BasePage {
           await contentSearch.click();
           await contentSearch.sendKeys(thought);
           
-          await stringThoughtCounty.click();
+          browser.wait(EC.elementToBeClickable(thoughtName, 5000));
+          await thoughtName.click();
+
           browser.wait(EC.elementToBeClickable(countyStringText, 5000));
           await countyStringText.click();
+
+          const countyName = countyStringText.getText();
          
           browser.wait(EC.elementToBeClickable(confirmAsFactOption, 5000));
           await confirmAsFactOption.click();
@@ -151,16 +157,20 @@ class DocumentPage extends BasePage {
           browser.wait(EC.elementToBeClickable(factSubmitButton, 5000));
           await factSubmitButton.click();
 
-          await browser.refresh();
-
+          return countyName;
           };
 
-          this.factThoughtcount = async () => {
-            browser.wait(EC.elementToBeClickable(contentSearch, 5000));
+          this.factThoughtValue = async () => {
+            browser.wait(EC.elementToBeClickable(contentFactTag, 5000));
             await contentFactTag.click();
+            browser.wait(EC.elementToBeClickable(contentSearch, 5000));
             await contentSearch.click();
+            await contentSearch.clear();
             await contentSearch.sendKeys(FactPage.userFactName);
-            return await factCountBadge.getText();
+            browser.wait(EC.elementToBeClickable(factThoughtCounty, 5000));
+            await factThoughtCoußnty.click();
+            await this.isVisible(countyStringText);
+            return countyStringText.getText();
           };
 
         this.createNewDocType = async (dataType) => {
@@ -206,7 +216,6 @@ class DocumentPage extends BasePage {
             logger.info("Success - Create new Doc Type");
             return await documentTypePill.getText();
           };
-
     }
 }   
 export default new DocumentPage();

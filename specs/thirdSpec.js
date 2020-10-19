@@ -36,9 +36,8 @@ describe ('verify that uploading a document with fact types and verify the thoug
         await DocumentPage.searchDocTypeDropDown();
 
         await DocumentPage.openMostRecentDocument(true);
-        await DocumentPage.confirmThoughtAsFact('County');
-
-        expect(DocumentPage.factThoughtcount()).toBe(1);
+        const county = await DocumentPage.confirmThoughtAsFact('County');
+        expect(DocumentPage.factThoughtValue()).toEqual(county);
 
     });
 
