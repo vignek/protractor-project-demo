@@ -33,7 +33,7 @@ describe ('verify that uploading a document with fact types and verify the thoug
     it('should validate the type and tag of the document', async () => {
         await DocumentPage.navigateToDocumentSearchPage();
         await DocumentPage.waitForListItems();
-        await DocumentPage.searchDocTypeDropDown();
+        await DocumentPage.searchDocTypeDropDown('Oil and Gas Lease');
 
         await DocumentPage.openMostRecentDocument(true);
         const county = await DocumentPage.confirmThoughtAsFact('County');

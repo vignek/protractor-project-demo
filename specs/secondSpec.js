@@ -1,8 +1,8 @@
-import TagPage from '../pages/tagPage/page';
 import DocumentPage from '../pages/documentPage/page';
-import LoginPage from '../pages/loginPage/page';
 import UploadPage from '../pages/uploadPage/page';
+import LoginPage from '../pages/loginPage/page';
 import FactPage from '../pages/factPage/page';
+import TagPage from '../pages/tagPage/page';
 import USERDATA from '../data/common';
 
 const documentPath = './OGL.pdf'
@@ -38,7 +38,7 @@ describe ('verify that uploading a document with fact types and verify the thoug
         await DocumentPage.navigateToDocumentMenu();
         await DocumentPage.loadDocumentModal(); 
         await DocumentPage.createNewDocType();
-        expect(DocumentPage.searchDocType()).toBeGreaterThan(1); // FAILS HERE.
+        expect(DocumentPage.searchDocType()).toBeGreaterThan(1);
     });
 
     it('should be able to create and view a new tag type', async () => {

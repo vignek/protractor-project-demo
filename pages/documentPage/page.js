@@ -28,6 +28,12 @@ const expandDocumentIcon = element.all(by.css(SELECTORS.expandDocumentIcon)).fir
 const tagNameIcon = element(by.cssContainingText(SELECTORS.tagNameIcon,TagPage.userTagName));
 const documentType = element(by.css(SELECTORS.documentType));
 const tagChip = element(by.css(SELECTORS.tagChip));
+const addTagChip = element(by.css(SELECTORS.addTagChip));
+const addTagButton = element(by.css(SELECTORS.addTagButton))
+const removeTagChip = element(by.css(SELECTORS.removeTagChip));
+const addTagSearch = element(by.css(SELECTORS.addTagSearch));
+const factFieldTypeEqualsOperator = element(by.cssContainingText(SELECTORS.factFieldType,'Equals'));
+const factFieldTextArea = element(by.css(factFieldTextArea));
 const actionsColumn = element(by.css(SELECTORS.actionsColumn));
 const tagSearchButton = element(by.buttonText('Tags'));
 const tagsInputSearch = element(by.css(SELECTORS.tagsInputSearch));
@@ -36,9 +42,16 @@ const contentSearch = element(by.css(SELECTORS.contentSearch));
 const contentFactTag = element(by.css(SELECTORS.contentFactTag));
 const factTag = element(by.css(SELECTORS.factTag));
 const documentTypeButton = element(by.buttonText('Document Type'));
+const FactTypeButton = element(by.buttonText('Facts'));
+const buttonApplyTag = element(by.buttonText('Apply'));
+const searchResultPagination = element(by.css(SELECTORS.pagination));
+const addTagIcon = element(by.css(SELECTORS.addTagIcon));
 const searchDocument = element(by.css(SELECTORS.searchDocType));
+const searchFact = element(by.css(SELECTORS.searchFactType));
 const oilAndGasType = element(by.css(SELECTORS.oilAndGasDocType));
+const fistFactItem = element.all(by.css(SELECTORS.fistFactItem)).first();
 const submitButton = element(by.css(SELECTORS.typeApplyButton));
+const simpleSubmit = element(by.css(SELECTORS.simpleSubmit));
 const uploadArrowIcon = element(by.css(SELECTORS.uploadArrowIcon));
 const contentTagThoughts = element(by.css(SELECTORS.contentTagThoughts));
 const documentTypePill = element(by.css(SELECTORS.documentTypePill));
@@ -114,8 +127,30 @@ class DocumentPage extends BasePage {
 
         this.getTag = async () => {
           browser.wait(EC.elementToBeClickable(tagChip, 5000));
-          this.isVisible($(documentType));
+          this.isVisible($(tagChip));
           return await tagChip.getText();
+        };
+
+        this.deleteTag = async () => {
+          browser.wait(EC.elementToBeClickable(removeTagChip, 5000));
+          removeTagChip.click();
+          await this.isVisible($(addTagButton));
+        };
+
+        this.addTag = async (tagName) => {
+          browser.wait(EC.elementToBeClickable(addTagChip, 5000));
+          addTagChip.click();
+          console.log('-->1');
+          browser.wait(EC.elementToBeClickable(addTagSearch, 5000));
+          await addTagSearch.click();
+          console.log('-->2');
+          await addTagSearch.sendKeys(tagName);
+          browser.wait(EC.elementToBeClickable(addTagIcon, 5000));
+          await addTagIcon.click();
+          console.log('-->3');
+          browser.wait(EC.elementToBeClickable(buttonApplyTag, 5000));
+          await buttonApplyTag.click();
+          console.log('-->4');
         };
 
         this.getFactType = async () => {
@@ -168,7 +203,7 @@ class DocumentPage extends BasePage {
             await contentSearch.clear();
             await contentSearch.sendKeys(FactPage.userFactName);
             browser.wait(EC.elementToBeClickable(factThoughtCounty, 5000));
-            await factThoughtCoußnty.click();
+            await factThoughtCounty.click();
             await this.isVisible(countyStringText);
             return countyStringText.getText();
           };
@@ -201,14 +236,14 @@ class DocumentPage extends BasePage {
             return await SearchResultElement.count();
           };
 
-          this.searchDocTypeDropDown = async () => {
+          this.searchDocTypeDropDown = async (searchTerm) => {
             logger.info("Action - Creating new Doc Type")
             await browser.wait(EC.elementToBeClickable(documentTypeButton, 5000));
             await documentTypeButton.click();
 
             await searchDocument.clear();
             await searchDocument.click();
-            await searchDocument.sendKeys('Oil and Gas Lease');
+            await searchDocument.sendKeys(searchTerm);
             await browser.wait(EC.elementToBeClickable(oilAndGasType, 5000));
             await oilAndGasType.click();
             await this.inDom(submitButton);
@@ -216,6 +251,41 @@ class DocumentPage extends BasePage {
             logger.info("Success - Create new Doc Type");
             return await documentTypePill.getText();
           };
+
+          this.searchFactTypeDropDown = async (searchTerm) => {
+            logger.info("Action - Creating new Fact Type")
+            await browser.wait(EC.elementToBeClickable(FactTypeButton, 5000));
+            await FactTypeButton.click();
+
+            await searchFact.clear();
+            await searchFact.click();
+            await searchFact.sendKeys(searchTerm);
+            
+            await browser.wait(EC.elementToBeClickable(fistFactItem, 5000));
+            await fistFactItem.click();
+
+            // Did not search for fact field text area with Equals as I didn't set value previously
+
+            // await this.inDom(factFieldTypeEqualsOperator);
+            // await factFieldTypeEqualsOperator.click();
+
+            // await browser.wait(EC.elementToBeClickable(factFieldTextArea, 5000));
+            // await factFieldTextArea.click();
+            // await factFieldTextArea.sendKeys()
+
+            await this.inDom(simpleSubmit);
+            await simpleSubmit.click();
+
+            logger.info("Success - Create new Fact Type");
+            return await documentTypePill.getText();
+          };
+
+          this.searchResultCount = async () => {
+            logger.info("Action - Getting Pagination Result")
+            await this.isVisible($(searchResultPagination));
+            return await searchResultPagination.getText();
+          };
+
     }
 }   
 export default new DocumentPage();
