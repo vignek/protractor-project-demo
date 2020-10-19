@@ -20,9 +20,5 @@
 
 ## Test Results : 
 
-*Test Result : ![Image of Test Results]
-(https://ibb.co/rwX5cwG)
-(https://ibb.co/8cqZcgT)
-(https://ibb.co/NLvRGSX)
-(https://ibb.co/tM0wXNB)
-(https://ibb.co/Wt6Wf8V)
+*Test Result : 
+![Image of Test Results](https://ibb.co/rwX5cwG)
