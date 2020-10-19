@@ -45,7 +45,7 @@ const documentTypeButton = element(by.buttonText('Document Type'));
 const FactTypeButton = element(by.buttonText('Facts'));
 const buttonApplyTag = element(by.buttonText('Apply'));
 const searchResultPagination = element(by.css(SELECTORS.pagination));
-const addTagIcon = element(by.css(SELECTORS.addTagIcon));
+const addTagIcon = element.all(by.css(SELECTORS.addTagIcon)).first();
 const searchDocument = element(by.css(SELECTORS.searchDocType));
 const searchFact = element(by.css(SELECTORS.searchFactType));
 const oilAndGasType = element(by.css(SELECTORS.oilAndGasDocType));
@@ -140,17 +140,11 @@ class DocumentPage extends BasePage {
         this.addTag = async (tagName) => {
           browser.wait(EC.elementToBeClickable(addTagChip, 5000));
           addTagChip.click();
-          console.log('-->1');
           browser.wait(EC.elementToBeClickable(addTagSearch, 5000));
           await addTagSearch.click();
-          console.log('-->2');
           await addTagSearch.sendKeys(tagName);
           browser.wait(EC.elementToBeClickable(addTagIcon, 5000));
           await addTagIcon.click();
-          console.log('-->3');
-          browser.wait(EC.elementToBeClickable(buttonApplyTag, 5000));
-          await buttonApplyTag.click();
-          console.log('-->4');
         };
 
         this.getFactType = async () => {
