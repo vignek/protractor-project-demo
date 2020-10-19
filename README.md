@@ -16,3 +16,13 @@
 ## Troubleshooting
 * run `node -v` and make sure your node version is 8.x.x or greater
 * `webdriver-manager` _should_ have updated on install, but if not, run `npm run update` to be sure
+
+
+## Test Results : 
+
+*Test Result : ![Image of Test Results]
+(https://ibb.co/rwX5cwG)
+(https://ibb.co/8cqZcgT)
+(https://ibb.co/NLvRGSX)
+(https://ibb.co/tM0wXNB)
+(https://ibb.co/Wt6Wf8V)
